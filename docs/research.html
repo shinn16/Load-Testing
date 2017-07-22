@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load Testing a VM vs PM | Rsearch</title>
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css" />
+    <link rel="icon" href="/content/images/favicon.ico">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="http://www.marshall.edu/cite/home/academic/divisions/computer-science-program/" target="_blank"><img src="content/images/mu_logo_blk.png" id="muLogo"></a>
+            <h1 id="home"><a href="/index.html">Load Testing a VM vs PM</a></h1>
+            <nav class="page_nav">
+                <table>
+                    <tr>
+                        <td><a href="/research.html">Research</a></td>
+                        <td><a href="http://linux.dell.com/dvdstore/" target="_blank">DS2</a></td>
+                        <td><a href="/ds2mod.html">DS2 Mod</a></td>
+                        <td><a href="/tools.html">Tools</a></td>
+                        <td><a href="/resources.html">Resources</a></td>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        <main>
+            <nav>
+                <ul class="internalNav">
+                    <li><a href="#questions">Research Questions</a></li>
+                    <li><a href="#methods">Methods</a></li>
+                    <li><a href="#setup">Setup</a></li>
+                    <li><a href="#results">Results</a></li>
+                </ul>
+            </nav>
+            <article>
+                <div class="white">
+                    <h2 class="contentHeader" id="questions">Research Questions</h2>
+                        <p class="content">
+                           Load testing has been conducted in a virtualized environment by many companies for some time now. Although testing in this manner has not lead to any substantail failures, the quetions remains as to whether or not load testing in a virtualized enviroment will produce an accurate model for the expected results when running in a physical environment. To test this, we pose three main questions:
+                        </p>
+                        <ol class="content" id="questions">
+                            <li>Does load testing in a virtual environment yield different results than a physical environment?</li>
+                            <li>Do different virtual environments perform differently with respect to load testing?</li>
+                            <li>Do different hardware configurations affect the performance of the environments?</li>
+                        </ol>
+                    <h2 class="contentHeader" id="methods">Methods</h2>
+                        <p class="content">
+                            In order to determine any run time differences in a virtualized environment and a physical environment, direct testing of the environment performance counters should be sufficient. Applications built specifically to load test the infrastructure of a system exist and are freely available. The primary application to be used for load testing will be Dell DVD Store (DS2). Time permitting, the RUBiS platform will also be used to provide some variety in software testing. Also, included in this testing will be two types of virtualization software, Virtual Box and VMware. Time permitting, I would like to test in other virtualization software platforms, but these will be the primary test beds. Because different virtualization platforms handle the virtual environment in different ways, these are the most important components of the testing.
+                            <br/>
+                            <br/>
+                            <i>The testing will be conducted in five phases:</i>
+                        </p>
+                        <ol class="content">
+                            <li>Data collection from the physical environment (multiple runs)</li>
+                            <li>Data averaging of the physical environment</li>
+                            <li>Data collection from the virtual environment (multiple runs)</li>
+                            <ol class="internalList">
+                                <li>Virtual Box data collection</li>
+                                <li>VMware data collection</li>
+                            </ol>
+                            <li>Data averaging of the virtual environment</li>
+                            <ol class="internalList">
+                                <li>Virtual Box data averaging</li>
+                                <li>VMware data averaging</li>
+                            </ol>
+                            <li>Data comparison and analysis</li>
+                        </ol>
+                        <p class="content">
+                            Performance counter logs can be of terabyte sizes and difficult to analyze. To handle this, I will wrote custom scripts to average and graph the data for easy analysis. Once the performance reports have been generated, I will compare the results for each respective environment. To speed up the process of data collection and to stream line to process, I have written a series of shell scripts that are used to automate the the process of cleaning the database, starting a system monitor and collecting its data, starting ds2, and backing up the data. These scripts are driven by <a class="link" href="https://en.wikipedia.org/wiki/Cron" target="_blank">cron jobs</a>. Tests are scheduled to run for a 75 minute period, a new test executes every 90 minutes.
+                        </p>
+
+                </div>
+                <div class="green">
+                    <h2 class="contentHeader" id="setup">Setup</h2>
+                    <h3 class="contentHeader">Test Execution</h3>
+                    <video class="floatRight" id="setupVideo" src="content/loadTestSetup.mp4" type="video/mp4" loop autoplay preload="auto">Your browser does not support video playback.</video>
+                        <p class="contentHeader">
+                           The test executes in four steps:
+                        </p>
+                        <ol class="content">
+                            <li>Cleaning up</li>
+                                <ol class="internalList">
+                                    <li>Stoping and restarting the MySQL Server to close any connections to it</li>
+                                    <li>Clearing the database data added during the last run and restoring it to its initial state</li>
+                                    <li>Stop the Tomcat Server to close any connections to it</li>
+                                    <li>Removing all Tomcat logs</li>
+                                    <li>Restarting the Tomcat Server</li>
+                                </ol>
+                            <li>Start the monitor, monitor connects to:</li>
+                                <ol class="internalList">
+                                    <li>Tomcat Server</li>
+                                    <li>MySQL Server</li>
+                                    <li>Driver</li>
+                                </ol>
+                            <li>Start the Driver</li>
+                            <li>Collect the data from the monitor</li>
+                        </ol>
+                        <p class="content">
+                            The automation scripts are running around the clock on a central machine, which will then login to the other machines using <a target="_blank" class="link" href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a>. From there they will execute the commands needed to perform the tasks for each respective machine. Once the test has finished, <a target="_blank" class="link" href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol">SFTP</a>
+                            is used to transfer the files back to the central machine. Everyday at 6 pm a backup is made and sent to a remote machine for redundant data storage.
+                            The data organization scheme uses following hierarchy:
+                        </p>
+                        <ul class="content">
+                            <li>Config File</li>
+                            <ul>
+                                <li>Platform (<a class="link" href="https://en.wikipedia.org/wiki/Operating_system" target="_blank">operating system</a>_<a class="link" href="https://en.wikipedia.org/wiki/Hypervisor" target="_blank">hypervisor</a>)</li>
+                                <ul>
+                                    <li>Test number</li>
+                                    <ul>
+                                        <li>ExecutionLog.txt</li>
+                                        <li>WebData.csv</li>
+                                        <li>WebDataRaw.csv</li>
+                                        <li>MySQLData.csv</li>
+                                        <li>MySQLDataRaw.csv</li>
+                                        <li>DriverData.csv</li>
+                                        <li>DriverDataRaw.csv</li>
+                                    </ul>
+                                </ul>
+                            </ul>
+                        </ul>
+                    <h3 class="contentHeader">Hardware</h3>
+                    <img src="content/images/cluster.jpg" class="floatRight" id="cluster">
+                        <p class="content">
+                            Currently we have 28 machines at our disposal for the purpose of this research, 17 of them are Dell Optiplex 780s (15 pictured). To reduce the number of variables in the testing, we have
+                            decided to restrict the testing to only these machines as they make up the majority of the available hardware. By restriciting to only these machines, we remove all hardware variables.
+                            Each 780 is equipt with 4 gigabytes of RAM and an Intel Core 2 Duo. With the exception of the graphics cards being removed and RAM being added, these machines have not been modified in anyway.
+                            They are not overclocked, undervolted, or by any other means altered.
+                        </p>
+                        <p class="content">
+                            Every machine is dual booting Ubuntu Server 16.04 and Windows 7 Professional. With the exception of the tools needed to run DS2, and the addition of the <a class="link" href="https://xfce.org/">XFCE Desktop Environment</a> added to Ubuntu, neither system has undergone modification. The entire cluster is running on its own priviate network. Each stack of machines is capable of facilitating a
+                            test environment, which can then be driven using the central machine. Testing is limited to two stacks right now, as the router we have for the time being is insufficient to handle the demands of running running three test environments(operating system/hypervisor) similtaneously. Efforts are being made to secure a more powerful router so that testing may be expanded to handle more environments at once.
+                        </p>
+                    <h3 class="contentHeader">Software</h3>
+                        <p class="contentHeader">
+                            The relevant software versions running on the machines is as follows:
+                        </p>
+                    <div class="floatLeft content" id="softList">
+                        <h4 class="center" id="softListHeader">Windows 7 Professional</h4>
+                        <hr id="softListUnderline">
+                        <ul class="content">
+                            <li>MySQL Server 5.7</li>
+                            <li>MySQL J Connector 3.1.14</li>
+                            <li>Tomcat 6</li>
+                            <li>Python 3.6</li>
+                            <li><a class="link" target="_blank" href="https://pypi.python.org/pypi/psutil">Psutil 5.2.2</a></li>
+                            <li>Java Runtime Engine 8</li>
+                            <li><a class="link" target="_blank" href="https://www.bitvise.com/index">Bitvise SSH Server</a></li>
+                        </ul>
+                    </div>
+                    <div class="floatLeft clearMargin" id="softList">
+                        <h4 class="center" id="softListHeader">Ubuntu Server 16.04</h4>
+                        <hr id="softListUnderline">
+                        <ul class="contentHeader">
+                            <li>MySQL Server 5.7</li>
+                            <li>MySQL J Connector 3.1.14</li>
+                            <li>Tomacat 6</li>
+                            <li>Python 3.5</li>
+                            <li><a class="link" target="_blank" href="https://pypi.python.org/pypi/psutil/3.4.2">Psutil 3.4.2</a></li>
+                            <li>Open Java Runtime Engine 8</li>
+                        </ul>
+                    </div>
+                    <p class="clear"></p>
+                </div>
+                <div class="white">
+                    <h2 class="contentHeader" id="results">Results</h2>
+                        <p class="content">
+                            Results are organized by operating system. To view, please select an operating system.
+                        </p>
+                        <div class="content">
+                            <input type="radio" name="data" id="linux"><label for="linux" id="linLabel">Ubuntu Server 16.04</label>
+                            <input type="radio" name="data" id="windows"><label for="windows" id="winLabel">Windows 7 Pro</label>
+
+                            <div id="linData">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duo Reges: constructio interrete. Itaque in rebus minime obscuris non multus est apud eos disserendi labor. Potius inflammat, ut coercendi magis quam dedocendi esse videantur. Paulum, cum regem Persem captum adduceret, eodem flumine invectio? An quod ita callida est, ut optime possit architectari voluptates? Neminem videbis ita laudatum, ut artifex callidus comparandarum voluptatum diceretur. Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Istam voluptatem perpetuam quis potest praestare sapienti? Nunc vides, quid faciat. Modo etiam paulum ad dexteram de via declinavi, ut ad Pericli sepulcrum accederem.
+
+Philosophi autem in suis lectulis plerumque moriuntur. Ut scias me intellegere, primum idem esse dico voluptatem, quod ille don.
+
+Hoc mihi cum tuo fratre convenit. Tenent mordicus. Aliter enim explicari, quod quaeritur, non potest. Sedulo, inquam, faciam. Comprehensum, quod cognitum non habet? Equidem, sed audistine modo de Carneade? Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. At, illa, ut vobis placet, partem quandam tuetur, reliquam deserit. Quis est, qui non oderit libidinosam, protervam adolescentiam? Quare conare, quaeso. Si verbum sequimur, primum longius verbum praepositum quam bonum.
+
+Hoc non est positum in nostra actione. Vide, quantum, inquam, fallare, Torquate. Et quidem iure fortasse, sed tamen non gravissimum est testimonium multitudinis. Aut, Pylades cum sis, dices te esse Orestem, ut moriare pro amico? Cur igitur, inquam, res tam dissimiles eodem nomine appellas? Heri, inquam, ludis commissis ex urbe profectus veni ad vesperum.
+
+Qui ita affectus, beatum esse numquam probabis; Et ille ridens: Video, inquit, quid agas; Sed quoniam et advesperascit et mihi ad villam revertendum est, nunc quidem hactenus; Ut nemo dubitet, eorum omnia officia quo spectare, quid sequi, quid fugere debeant? At iam decimum annum in spelunca iacet. Sed ad haec, nisi molestum est, habeo quae velim.</p>
+                            </div>
+                            <div id="winData">
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eam tum adesse, cum dolor omnis absit; Dolere malum est: in crucem qui agitur, beatus esse non potest. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. In quo etsi est magnus, tamen nova pleraque et perpauca de moribus. Duo Reges: constructio interrete. Nihil opus est exemplis hoc facere longius. Quo plebiscito decreta a senatu est consuli quaestio Cn. Ita ne hoc quidem modo paria peccata sunt. Quis est tam dissimile homini. Dempta enim aeternitate nihilo beatior Iuppiter quam Epicurus; Quae quo sunt excelsiores, eo dant clariora indicia naturae.
+
+Nam adhuc, meo fortasse vitio, quid ego quaeram non perspicis. Tum Torquatus: Prorsus, inquit, assentior; Perturbationes autem nulla naturae vi commoventur, omniaque ea sunt opiniones ac iudicia levitatis. Cur igitur, inquam, res tam dissimiles eodem nomine appellas? Praeterea sublata cognitione et scientia tollitur omnis ratio et vitae degendae et rerum gerendarum. Quem Tiberina descensio festo illo die tanto gaudio affecit, quanto L. At ille pellit, qui permulcet sensum voluptate.
+
+At ille non pertimuit saneque fidenter: Istis quidem ipsis verbis, inquit; Verba tu fingas et ea dicas, quae non sentias? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia? Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres. Etenim semper illud extra est, quod arte comprehenditur. Multoque hoc melius nos veriusque quam Stoici. Et quod est munus, quod opus sapientiae? Aliter enim nosmet ipsos nosse non possumus. Ut optime, secundum naturam affectum esse possit.
+
+Quamquam tu hanc copiosiorem etiam soles dicere. Cur igitur, inquam, res tam dissimiles eodem nomine appellas? Si mala non sunt, iacet omnis ratio Peripateticorum. An potest, inquit ille, quicquam esse suavius quam nihil dolere? Videsne quam sit magna dissensio? Nihil enim iam habes, quod ad corpus referas; Quamquam tu hanc copiosiorem etiam soles dicere.
+
+Causa autem fuit huc veniendi ut quosdam hinc libros promerem. Nam de isto magna dissensio est. Qui-vere falsone, quaerere mittimus-dicitur oculis se privasse; Sed nunc, quod agimus; Ut aliquid scire se gaudeant? Idemque diviserunt naturam hominis in animum et corpus.
+                                </p>
+                            </div>
+                        </div>
+                </div>
+            </article>
+        </main>
+        <footer class="footer_nav">
+            <table>
+                <tr>
+                    <td><a href="http://www.marshall.edu" target="_blank">Marshall University</a> | </td>
+                    <td><a href="http://www.marshall.edu/sure/" target="_blank">SURE Program</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Researcher: <a href="https://shinn16.github.io/" target="_blank">Patrick Shinn</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Mentor: <a href="http://haroonmalik1.wix.com/haroon-malik" target="_blank">Haroon Malik</a></td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>

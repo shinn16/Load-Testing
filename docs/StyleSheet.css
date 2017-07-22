@@ -1,0 +1,296 @@
+/**
+Author: Patrick Shinn
+
+Special Thanks to:
+    CSSReset.com - How To Keep Footer At Bottom of Page with CSS for:
+    http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+**/
+
+html,
+body {
+    /*This is for the absolute footer, do not touch*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*Edit below*/
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+#wrapper {
+    /*This is for the absolute footer, do not touch*/
+    min-height: 100%;
+    position: relative;
+}
+
+/*All the header and header nav stuff*/
+header {
+    /*This is for the absolute footer, do not touch*/
+    padding: 10px;
+    /*Edit below*/
+    color: white;
+    background: #04954A;
+}
+
+#muLogo{
+    margin-top: 1em;
+    float: left;
+    height: 5%;
+    width: 9%;
+}
+
+#home a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+.page_nav {
+    background-color: #393A3C;
+    padding: .4em;
+    font-size: 1.2em;
+    /*aligns the header nav on the header properly, no green overhang*/
+    margin-bottom: -.58em;
+    margin-left: -.55em;
+    margin-right: -.55em;
+}
+
+.page_nav table{
+    vertical-align: middle;
+    height: 100%;
+}
+
+.page_nav td {
+    padding-left: .5em;
+    padding-right: .5em;
+    text-align: center;
+}
+.page_nav a{
+    color: aquamarine;
+    text-decoration: none;
+}
+.page_nav a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+/*All body and content stuff*/
+main {
+    /*This is for the absolute footer, do not touch*/
+    padding-bottom: 100px;
+    /* Height of the footer element */
+    /*Edit below*/
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+label{
+    font-size: 1.2em;
+    margin-right: 3%;
+    padding: .4em;
+}
+
+label:hover{
+    color: blue;
+}
+
+/* classes */
+.content{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.link{
+    color: blue;
+    text-decoration: none;
+}
+
+.link:hover{
+    color:purple;
+    text-decoration: none;
+}
+
+.contentHeader{
+    margin-left: 2%;
+    margin-bottom: -.5em;
+}
+
+.white{
+    background-color: #FFFFFF;
+    padding-top: .35em;
+    padding-bottom: .35em;
+}
+
+.green{
+    padding-top: .35em;
+    padding-bottom: .35em;
+    color: white;
+    background-color: #04954A;
+}
+
+.floatRight{
+    float: right;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.floatLeft{
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+
+.clear{ /*used for clearing floating images*/
+    clear: both;
+}
+
+.internalNav{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: -.35em;
+
+}
+
+.internalNav li{
+    display: inline-block;
+    font-size: 1.5em;
+    padding-left: .2em;
+    padding-right: .2em;
+}
+.internalNav a{
+    color: green;
+    text-decoration: none;
+}
+
+.internalNav a:hover{
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.internalList{
+    list-style-type: lower-alpha;
+
+}
+
+.clearMargin{
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+/* IDs */
+#diagram{
+    width: 40%;
+    height: 40%;
+}
+
+#setupVideo{
+    height: 50%;
+    width: 50%;
+}
+
+#cluster{
+    height: 40%;
+    width: 50%;
+    margin-top: .8em;
+}
+
+#softList{
+    width: 15%;
+}
+
+#softListHeader{
+    margin-top: 1em;
+    margin-bottom: -.5em;
+}
+
+#softListUnderline{
+    margin-bottom: -1em;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#linData{
+    display: none;
+    margin-top: .8em;
+}
+
+#winData{
+    display: none;
+    margin-top: .8em;
+}
+
+input#linux:checked ~div#linData{
+    display: block;
+}
+
+input#linux:checked ~label#linLabel{
+    background:  #04954A;
+    border-radius: .3em;
+    color: white;
+    
+}
+
+input#windows:checked ~div#winData{
+    display: block;
+}
+
+input#windows:checked ~label#winLabel{
+    background: #04954A;
+    border-radius: .3em;
+    color: white;
+}
+
+
+
+/*All the footer and footer nav stuff*/
+footer {
+    /*This is for the absolute footer, do not touch*/
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*Edit below*/
+    color: white;
+    background-color: #252729;
+
+}
+
+.footer_nav {
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+.footer_nav a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.footer_nav a:hover {
+    color: white;
+}
+
+.footer_nav table {
+    margin: auto;
+    text-align: center;
+}
+
+.footer_nav tr {
+    margin: auto;
+}
+
+.footer_nav td {
+    text-align: center;
+}

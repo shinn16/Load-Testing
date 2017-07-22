@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load Testing a VM vs PM | Home</title>
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css" />
+    <link rel="icon" href="/content/images/favicon.ico">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="http://www.marshall.edu/cite/home/academic/divisions/computer-science-program/" target="_blank"><img src="content/images/mu_logo_blk.png" id="muLogo"></a>
+            <h1 id="home"><a href="/index.html">Load Testing a VM vs PM</a></h1>
+            <nav class="page_nav">
+                <table>
+                    <tr>
+                        <td><a href="/research.html">Research</a></td>
+                        <td><a href="http://linux.dell.com/dvdstore/" target="_blank">DS2</a></td>
+                        <td><a href="/ds2mod.html">DS2 Mod</a></td>
+                        <td><a href="/tools.html">Tools</a></td>
+                        <td><a href="/resources.html">Resources</a></td>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <div class="white">
+                <h2 class="contentHeader">Towards Comparing the Load Testing Of Ultra Large Scale Software Systems in Virtualized Environments Vs. Physical Environments</h2>
+                    <p class="content">
+                        <b>Abstract:</b> Load testing is one of the means for evaluating the performance of Ultra Large Scale Systems (ULSS). At the end of  a load test, performance analysts must analyze thousands of performance counters from hundreds of machines under test. These performance counters are measures of run-time system properties such as CPU utilization, Disk I/O, memory consumption, and network traffic. Analysts observe counters to find out if the system is meeting its Service Level Agreements (SLAs). Typically, to save time and money, load tests are conducted in a virtualized environment prior to release of the enterprise software. Nevertheless, to date there do not exist any research to study if there exists any overhead in the use of virtual machines for load testing in comparison to physical machines. In our work, we perform a study on two open-source benchmarks systems DS2 and Rubis, where load test are conducted on both virtual and physical environments. We compare the results of load tests conducted using both the environment, identify any discrepancy (if exists). Further, we explore the rational of the observed discrepancies.
+                    </p>
+                    <p class="content">
+                        <b>Motivation:</b> Many ultra large scale systems are tested in a virtualized environment due to their ease of manipulation and to reduce to costs of application testing. Although the use of a virtual machine makes easier the process of load testing, it may also enable the possibility of producing inaccurate testing results. Running in a virtualized environment introduces additional overhead that may affect the over all system performance during the load test; because of this, it is quite possible that using a virtual environment for testing and a physical environment for production may produce unforeseen complications resulting in system failure.
+                    </p>
+                    <p class="content">
+                        <b>Background:</b> Contemporary Data Centers and Ultra-Large-Scale Systems (ULSSs) providers such as Amazon, Google, Facebook and Blackberry are virtualizing performance critical applications hosted on thousands of virtual machines distributed across hundreds of servers. Analysts and developers of ULSSs periodically load test components of ULSSs to ensure that the stakeholders and customer’s high demands on system quality, availability and responsiveness are met. Load testing assesses how a system performs under a given load. Load is defined as the rate at which transactions are submitted to a system. Load generators are used to induce load on the system under test, i.e., imitating thousands of users committing concurrent transactions to a system, resembling the harsh field environment. During the course of a load test, system is strictly monitored and important sources of data exposed by the system (i.e., performance metrics) are collected. These metrics include numerical measurements related to the system’s state and performance (e.g., CPU, memory utilization and network usage). These are called performance counters. These performance counters along with verbose output from the application being tested (execution log) are used to determine the efficiency of the application and the system configuration.
+                    </p>
+                </div>
+                <div class="green">
+                    <img src="content/images/Load%20Test%20Diagrahm.jpg" class="floatRight" id="diagram">
+                    <h2 class="contentHeader">What is Load Testing?</h2>
+                        <p class="content">
+                            Load testing is the process of putting demand on a software system or computing device and measuring its response. Load testing is performed to determine a system's behavior under both normal and anticipated peak load conditions. It helps to identify the maximum operating capacity of an application as well as any bottlenecks and determine which element is causing degradation. When the load placed on the system is raised beyond normal usage patterns to test the system's response at unusually high or peak loads, it is known as stress testing. The load is usually so great that error conditions are the expected result, but there is no clear boundary when an activity ceases to be a load test and becomes a stress test.
+                        </p>
+                        <p class="content">
+                            The diagram of the right shows the general layout of a very simplistic load test. In the displayed scenario, the load generation would represent the uses who use an online service, such as Amazon.com. The enterprise application represents the online service user interface (Amazon.com). The database represents the backend of the application, the place where all information needed for running the enterprise application is stored. This includes users, inventory, suppliers, and other information pertaining to the operations of the application. The system monitor is used to monitor the performance counters during the test. The counters collected typically include but are not limited to CPU usage, CPU idletime, RAM usage, swap usage, disk IO, network IO, and others.
+                        </p>
+                        <p class="clear"></p>
+                </div>
+                <div class="white">
+                    <h2 class="contentHeader">Why Load Test?</h2>
+                        <p class="content">
+                            Load testing is a vital part of ultra large scale systems. Load testing is to ULSS as beta testing is to programmers. The developed software may work when tested in small scale, but may fail due to unforseen issues if not tested with the expected user load. A few examples of catastophic results due to the failure to load test properly are:
+                        </p>
+                        <ul class="content">
+                            <li>Pokemon Go, Niantic 2016</li>
+                            <li>HealthCare.gov, US Government 2013</li>
+                            <li>The Like Button, Facebook 2009</li>
+                        </ul>
+                        <p class="content">
+                            In each of these cases, failing to properly load test the application prior to public release resulted in system failures and service outages. Had the time been taken to properly load test the application, each of these failures could have been avoided.
+                        </p>
+                    <h2 class="contentHeader">The Research</h2>
+                        <p class="content">
+                            Please visit the <a class="link" href="/research.html">Research Page</a> to learn more about the research being conducted on load testing.
+                        </p>
+
+                </div>
+            </article>
+        </main>
+        <footer class="footer_nav">
+            <table>
+                <tr>
+                    <td><a href="http://www.marshall.edu" target="_blank">Marshall University</a> | </td>
+                    <td><a href="http://www.marshall.edu/sure/" target="_blank">SURE Program</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Researcher: <a href="https://shinn16.github.io/" target="_blank">Patrick Shinn</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Mentor: <a href="http://haroonmalik1.wix.com/haroon-malik" target="_blank">Haroon Malik</a></td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>
