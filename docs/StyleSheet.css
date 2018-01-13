@@ -36,8 +36,7 @@ header {
 #muLogo{
     margin-top: 1em;
     float: left;
-    height: 5%;
-    width: 9%;
+    width: 10em;
 }
 
 #home a{
@@ -239,7 +238,7 @@ input#linux:checked ~label#linLabel{
     background:  #04954A;
     border-radius: .3em;
     color: white;
-    
+
 }
 
 input#windows:checked ~div#winData{
