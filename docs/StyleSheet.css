@@ -48,7 +48,7 @@ header {
 .page_nav {
     background-color: #393A3C;
     padding: .4em;
-    font-size: 1.2em;
+    font-size: 1.4em;
     /*aligns the header nav on the header properly, no green overhang*/
     margin-bottom: -.58em;
     margin-left: -.55em;
@@ -257,7 +257,7 @@ input#windows:checked ~label#winLabel{
 footer {
     /*This is for the absolute footer, do not touch*/
     width: 100%;
-    height: 75px;
+    height: 80px;
     position: absolute;
     bottom: 0;
     left: 0;
