@@ -11,5 +11,5 @@ print(type(df))    # shows that df is a pandas data frame
 print(df.head(5))  # prints the first 5 entries
 print(df.dtypes)   # prints data types of columns
 
-df.reset_index().plot(y=" write_bytes", x="index")
+df.reset_index().plot(y=" write_bytes")
 plt.show()
