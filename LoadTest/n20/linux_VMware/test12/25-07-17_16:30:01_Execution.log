@@ -1,0 +1,3456 @@
+Total number of Threads to be Spawned across multiple servers are n_threads: 20
+target= 192.168.1.130:8080  n_threads= 20  ramp_rate= 5  run_time= 60  db_size= 10mb  warmup_time= 5  think_time= 5
+pct_newcustomers= 10  n_searches= 10  search_batch_size= 5  n_line_items= 5  virt_dir= ds2  page_type= jsp  windows_perf_host=  detailed_view= Y linux_perf_host= 
+
+Using .NET DateTime for measuring response time
+
+Not generating Windows Performance Monitor Counters
+Thread 0: created for User 0
+Thread 1: created for User 1
+Thread 2: created for User 2
+Thread 3: created for User 3
+Thread 4: created for User 4
+Thread 5: created for User 5
+Thread 6: created for User 6
+Thread 7: created for User 7
+Thread 8: created for User 8
+Thread 9: created for User 9
+Thread 10: created for User 10
+Thread 11: created for User 11
+Thread 12: created for User 12
+Thread 13: created for User 13
+Thread 14: created for User 14
+Thread 15: created for User 15
+Thread 16: created for User 16
+Thread 17: created for User 17
+Thread 18: created for User 18
+Thread 19: created for User 19
+Controller (7/25/2017 4:35:20 PM): all threads running
+Controller: n_threads_connected = 0 : ConnectionTimeOut remaining 60
+Controller: n_threads_connected = 0 : ConnectionTimeOut remaining 59
+Thread 15: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 1 : ConnectionTimeOut remaining 58
+Thread 3: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 2 : ConnectionTimeOut remaining 57
+Thread 8: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 3 : ConnectionTimeOut remaining 56
+Thread 1: connected to 192.168.1.130:8080
+Thread 6: connected to 192.168.1.130:8080
+Thread 13: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 6 : ConnectionTimeOut remaining 55
+Controller: n_threads_connected = 6 : ConnectionTimeOut remaining 54
+Thread 16: connected to 192.168.1.130:8080
+Thread 11: connected to 192.168.1.130:8080
+Thread 18: connected to 192.168.1.130:8080
+Thread 9: connected to 192.168.1.130:8080
+Thread 4: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 11 : ConnectionTimeOut remaining 53
+Thread 0: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 12 : ConnectionTimeOut remaining 52
+Thread 2: connected to 192.168.1.130:8080
+Thread 5: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 14 : ConnectionTimeOut remaining 51
+Thread 19: connected to 192.168.1.130:8080
+Thread 14: connected to 192.168.1.130:8080
+Thread 7: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 17 : ConnectionTimeOut remaining 50
+Thread 10: connected to 192.168.1.130:8080
+Thread 12: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 19 : ConnectionTimeOut remaining 49
+Thread 17: connected to 192.168.1.130:8080
+Controller (7/25/2017 4:35:32 PM): all threads connected - issuing Start
+et=   10.0 n_overall=38 opm=227 rt_tot_lastn_max_msec=2995 rt_tot_avg_msec=1479 rt_tot_sampled=1479 rollbacks: n=1 %=  2.6 
+et=   20.0 n_overall=81 opm=242 rt_tot_lastn_max_msec=2995 rt_tot_avg_msec=857 rt_tot_sampled=307 rollbacks: n=4 %=  4.9 
+et=   30.0 n_overall=119 opm=237 rt_tot_lastn_max_msec=2948 rt_tot_avg_msec=674 rt_tot_sampled=284 rollbacks: n=5 %=  4.2 
+et=   40.0 n_overall=157 opm=235 rt_tot_lastn_max_msec=770 rt_tot_avg_msec=572 rt_tot_sampled=252 rollbacks: n=5 %=  3.2 
+et=   50.0 n_overall=194 opm=232 rt_tot_lastn_max_msec=942 rt_tot_avg_msec=527 rt_tot_sampled=338 rollbacks: n=6 %=  3.1 
+et=   60.0 n_overall=231 opm=230 rt_tot_lastn_max_msec=942 rt_tot_avg_msec=487 rt_tot_sampled=279 rollbacks: n=8 %=  3.5 
+et=   70.0 n_overall=268 opm=229 rt_tot_lastn_max_msec=942 rt_tot_avg_msec=450 rt_tot_sampled=216 rollbacks: n=9 %=  3.4 
+et=   80.0 n_overall=305 opm=228 rt_tot_lastn_max_msec=672 rt_tot_avg_msec=423 rt_tot_sampled=227 rollbacks: n=9 %=  3.0 
+et=   90.0 n_overall=345 opm=229 rt_tot_lastn_max_msec=675 rt_tot_avg_msec=405 rt_tot_sampled=265 rollbacks: n=11 %=  3.2 
+et=  100.0 n_overall=386 opm=231 rt_tot_lastn_max_msec=675 rt_tot_avg_msec=388 rt_tot_sampled=246 rollbacks: n=11 %=  2.8 
+et=  110.0 n_overall=422 opm=230 rt_tot_lastn_max_msec=572 rt_tot_avg_msec=376 rt_tot_sampled=255 rollbacks: n=11 %=  2.6 
+et=  120.0 n_overall=457 opm=228 rt_tot_lastn_max_msec=572 rt_tot_avg_msec=368 rt_tot_sampled=265 rollbacks: n=11 %=  2.4 
+et=  130.0 n_overall=492 opm=227 rt_tot_lastn_max_msec=603 rt_tot_avg_msec=358 rt_tot_sampled=234 rollbacks: n=11 %=  2.2 
+et=  140.0 n_overall=534 opm=228 rt_tot_lastn_max_msec=603 rt_tot_avg_msec=347 rt_tot_sampled=217 rollbacks: n=12 %=  2.2 
+User name newuser4347 already exists
+et=  150.0 n_overall=566 opm=226 rt_tot_lastn_max_msec=603 rt_tot_avg_msec=342 rt_tot_sampled=248 rollbacks: n=12 %=  2.1 
+et=  160.1 n_overall=606 opm=227 rt_tot_lastn_max_msec=545 rt_tot_avg_msec=332 rt_tot_sampled=204 rollbacks: n=13 %=  2.1 
+et=  170.1 n_overall=649 opm=228 rt_tot_lastn_max_msec=545 rt_tot_avg_msec=324 rt_tot_sampled=208 rollbacks: n=13 %=  2.0 
+et=  180.1 n_overall=698 opm=232 rt_tot_lastn_max_msec=477 rt_tot_avg_msec=320 rt_tot_sampled=259 rollbacks: n=14 %=  2.0 
+et=  190.1 n_overall=734 opm=231 rt_tot_lastn_max_msec=672 rt_tot_avg_msec=318 rt_tot_sampled=279 rollbacks: n=17 %=  2.3 
+et=  200.1 n_overall=771 opm=231 rt_tot_lastn_max_msec=672 rt_tot_avg_msec=312 rt_tot_sampled=208 rollbacks: n=17 %=  2.2 
+et=  210.1 n_overall=816 opm=233 rt_tot_lastn_max_msec=672 rt_tot_avg_msec=309 rt_tot_sampled=259 rollbacks: n=21 %=  2.6 
+et=  220.1 n_overall=853 opm=232 rt_tot_lastn_max_msec=584 rt_tot_avg_msec=305 rt_tot_sampled=200 rollbacks: n=22 %=  2.6 
+et=  230.1 n_overall=892 opm=232 rt_tot_lastn_max_msec=653 rt_tot_avg_msec=302 rt_tot_sampled=233 rollbacks: n=23 %=  2.6 
+et=  240.1 n_overall=938 opm=234 rt_tot_lastn_max_msec=653 rt_tot_avg_msec=300 rt_tot_sampled=276 rollbacks: n=24 %=  2.6 
+et=  250.1 n_overall=972 opm=233 rt_tot_lastn_max_msec=653 rt_tot_avg_msec=296 rt_tot_sampled=187 rollbacks: n=25 %=  2.6 
+et=  260.1 n_overall=1009 opm=232 rt_tot_lastn_max_msec=598 rt_tot_avg_msec=294 rt_tot_sampled=239 rollbacks: n=26 %=  2.6 
+et=  270.1 n_overall=1052 opm=233 rt_tot_lastn_max_msec=503 rt_tot_avg_msec=292 rt_tot_sampled=238 rollbacks: n=27 %=  2.6 
+et=  280.1 n_overall=1097 opm=234 rt_tot_lastn_max_msec=449 rt_tot_avg_msec=288 rt_tot_sampled=188 rollbacks: n=27 %=  2.5 
+et=  290.1 n_overall=1137 opm=235 rt_tot_lastn_max_msec=628 rt_tot_avg_msec=286 rt_tot_sampled=252 rollbacks: n=28 %=  2.5 
+et=  300.1 n_overall=1181 opm=236 rt_tot_lastn_max_msec=628 rt_tot_avg_msec=285 rt_tot_sampled=242 rollbacks: n=29 %=  2.5 
+Stats reset
+et=   10.0 n_overall=29 opm=173 rt_tot_lastn_max_msec=427 rt_tot_avg_msec=249 rt_tot_sampled=249 rollbacks: n=2 %=  6.9 
+et=   20.0 n_overall=68 opm=203 rt_tot_lastn_max_msec=625 rt_tot_avg_msec=245 rt_tot_sampled=241 rollbacks: n=3 %=  4.4 
+et=   30.0 n_overall=107 opm=213 rt_tot_lastn_max_msec=625 rt_tot_avg_msec=239 rt_tot_sampled=229 rollbacks: n=5 %=  4.7 
+et=   40.0 n_overall=145 opm=217 rt_tot_lastn_max_msec=625 rt_tot_avg_msec=238 rt_tot_sampled=237 rollbacks: n=6 %=  4.1 
+et=   50.0 n_overall=182 opm=218 rt_tot_lastn_max_msec=562 rt_tot_avg_msec=235 rt_tot_sampled=221 rollbacks: n=9 %=  4.9 
+et=   60.0 n_overall=222 opm=221 rt_tot_lastn_max_msec=639 rt_tot_avg_msec=236 rt_tot_sampled=241 rollbacks: n=11 %=  5.0 
+et=   70.0 n_overall=265 opm=227 rt_tot_lastn_max_msec=639 rt_tot_avg_msec=246 rt_tot_sampled=295 rollbacks: n=11 %=  4.2 
+et=   80.0 n_overall=301 opm=225 rt_tot_lastn_max_msec=639 rt_tot_avg_msec=244 rt_tot_sampled=230 rollbacks: n=12 %=  4.0 
+et=   90.0 n_overall=341 opm=227 rt_tot_lastn_max_msec=581 rt_tot_avg_msec=243 rt_tot_sampled=239 rollbacks: n=13 %=  3.8 
+User name newuser1130 already exists
+et=  100.0 n_overall=374 opm=224 rt_tot_lastn_max_msec=581 rt_tot_avg_msec=239 rt_tot_sampled=190 rollbacks: n=14 %=  3.7 
+et=  110.0 n_overall=413 opm=225 rt_tot_lastn_max_msec=581 rt_tot_avg_msec=238 rt_tot_sampled=235 rollbacks: n=14 %=  3.4 
+et=  120.0 n_overall=447 opm=223 rt_tot_lastn_max_msec=798 rt_tot_avg_msec=241 rt_tot_sampled=270 rollbacks: n=15 %=  3.4 
+et=  130.0 n_overall=490 opm=226 rt_tot_lastn_max_msec=798 rt_tot_avg_msec=244 rt_tot_sampled=277 rollbacks: n=17 %=  3.5 
+et=  140.0 n_overall=533 opm=228 rt_tot_lastn_max_msec=668 rt_tot_avg_msec=247 rt_tot_sampled=280 rollbacks: n=18 %=  3.4 
+et=  150.0 n_overall=581 opm=232 rt_tot_lastn_max_msec=733 rt_tot_avg_msec=250 rt_tot_sampled=281 rollbacks: n=20 %=  3.4 
+et=  160.0 n_overall=614 opm=230 rt_tot_lastn_max_msec=733 rt_tot_avg_msec=248 rt_tot_sampled=224 rollbacks: n=21 %=  3.4 
+et=  170.0 n_overall=655 opm=231 rt_tot_lastn_max_msec=733 rt_tot_avg_msec=249 rt_tot_sampled=255 rollbacks: n=23 %=  3.5 
+et=  180.1 n_overall=697 opm=232 rt_tot_lastn_max_msec=621 rt_tot_avg_msec=249 rt_tot_sampled=262 rollbacks: n=24 %=  3.4 
+et=  190.1 n_overall=733 opm=231 rt_tot_lastn_max_msec=621 rt_tot_avg_msec=249 rt_tot_sampled=240 rollbacks: n=24 %=  3.3 
+et=  200.1 n_overall=770 opm=230 rt_tot_lastn_max_msec=621 rt_tot_avg_msec=247 rt_tot_sampled=214 rollbacks: n=25 %=  3.2 
+et=  210.1 n_overall=805 opm=229 rt_tot_lastn_max_msec=550 rt_tot_avg_msec=248 rt_tot_sampled=253 rollbacks: n=25 %=  3.1 
+et=  220.1 n_overall=848 opm=231 rt_tot_lastn_max_msec=562 rt_tot_avg_msec=248 rt_tot_sampled=246 rollbacks: n=25 %=  2.9 
+et=  230.1 n_overall=886 opm=231 rt_tot_lastn_max_msec=562 rt_tot_avg_msec=246 rt_tot_sampled=207 rollbacks: n=26 %=  2.9 
+et=  240.1 n_overall=927 opm=231 rt_tot_lastn_max_msec=464 rt_tot_avg_msec=244 rt_tot_sampled=197 rollbacks: n=27 %=  2.9 
+et=  250.1 n_overall=959 opm=230 rt_tot_lastn_max_msec=464 rt_tot_avg_msec=243 rt_tot_sampled=215 rollbacks: n=29 %=  3.0 
+et=  260.1 n_overall=1002 opm=231 rt_tot_lastn_max_msec=445 rt_tot_avg_msec=242 rt_tot_sampled=218 rollbacks: n=30 %=  3.0 
+et=  270.1 n_overall=1043 opm=231 rt_tot_lastn_max_msec=617 rt_tot_avg_msec=243 rt_tot_sampled=279 rollbacks: n=30 %=  2.9 
+et=  280.1 n_overall=1080 opm=231 rt_tot_lastn_max_msec=617 rt_tot_avg_msec=243 rt_tot_sampled=243 rollbacks: n=32 %=  3.0 
+et=  290.1 n_overall=1120 opm=231 rt_tot_lastn_max_msec=682 rt_tot_avg_msec=244 rt_tot_sampled=282 rollbacks: n=33 %=  2.9 
+et=  300.1 n_overall=1163 opm=232 rt_tot_lastn_max_msec=682 rt_tot_avg_msec=245 rt_tot_sampled=252 rollbacks: n=36 %=  3.1 
+et=  310.1 n_overall=1202 opm=232 rt_tot_lastn_max_msec=682 rt_tot_avg_msec=243 rt_tot_sampled=205 rollbacks: n=40 %=  3.3 
+et=  320.1 n_overall=1243 opm=233 rt_tot_lastn_max_msec=512 rt_tot_avg_msec=242 rt_tot_sampled=197 rollbacks: n=43 %=  3.5 
+et=  330.1 n_overall=1285 opm=233 rt_tot_lastn_max_msec=616 rt_tot_avg_msec=244 rt_tot_sampled=298 rollbacks: n=48 %=  3.7 
+et=  340.1 n_overall=1318 opm=232 rt_tot_lastn_max_msec=616 rt_tot_avg_msec=243 rt_tot_sampled=202 rollbacks: n=49 %=  3.7 
+et=  350.1 n_overall=1358 opm=232 rt_tot_lastn_max_msec=616 rt_tot_avg_msec=243 rt_tot_sampled=246 rollbacks: n=51 %=  3.8 
+et=  360.1 n_overall=1401 opm=233 rt_tot_lastn_max_msec=572 rt_tot_avg_msec=243 rt_tot_sampled=248 rollbacks: n=53 %=  3.8 
+et=  370.1 n_overall=1438 opm=233 rt_tot_lastn_max_msec=572 rt_tot_avg_msec=242 rt_tot_sampled=200 rollbacks: n=57 %=  4.0 
+et=  380.1 n_overall=1474 opm=232 rt_tot_lastn_max_msec=474 rt_tot_avg_msec=241 rt_tot_sampled=213 rollbacks: n=57 %=  3.9 
+et=  390.1 n_overall=1507 opm=231 rt_tot_lastn_max_msec=476 rt_tot_avg_msec=242 rt_tot_sampled=282 rollbacks: n=58 %=  3.8 
+et=  400.1 n_overall=1541 opm=231 rt_tot_lastn_max_msec=476 rt_tot_avg_msec=242 rt_tot_sampled=231 rollbacks: n=61 %=  4.0 
+et=  410.1 n_overall=1581 opm=231 rt_tot_lastn_max_msec=476 rt_tot_avg_msec=241 rt_tot_sampled=223 rollbacks: n=62 %=  3.9 
+et=  420.1 n_overall=1623 opm=231 rt_tot_lastn_max_msec=673 rt_tot_avg_msec=243 rt_tot_sampled=296 rollbacks: n=65 %=  4.0 
+et=  430.1 n_overall=1653 opm=230 rt_tot_lastn_max_msec=673 rt_tot_avg_msec=243 rt_tot_sampled=256 rollbacks: n=67 %=  4.1 
+et=  440.1 n_overall=1694 opm=230 rt_tot_lastn_max_msec=673 rt_tot_avg_msec=243 rt_tot_sampled=244 rollbacks: n=67 %=  4.0 
+et=  450.1 n_overall=1734 opm=231 rt_tot_lastn_max_msec=593 rt_tot_avg_msec=243 rt_tot_sampled=240 rollbacks: n=67 %=  3.9 
+et=  460.1 n_overall=1770 opm=230 rt_tot_lastn_max_msec=474 rt_tot_avg_msec=242 rt_tot_sampled=198 rollbacks: n=71 %=  4.0 
+et=  470.1 n_overall=1815 opm=231 rt_tot_lastn_max_msec=516 rt_tot_avg_msec=242 rt_tot_sampled=247 rollbacks: n=71 %=  3.9 
+et=  480.1 n_overall=1851 opm=231 rt_tot_lastn_max_msec=516 rt_tot_avg_msec=241 rt_tot_sampled=183 rollbacks: n=73 %=  3.9 
+et=  490.1 n_overall=1889 opm=231 rt_tot_lastn_max_msec=561 rt_tot_avg_msec=241 rt_tot_sampled=245 rollbacks: n=75 %=  4.0 
+et=  500.1 n_overall=1925 opm=230 rt_tot_lastn_max_msec=561 rt_tot_avg_msec=240 rt_tot_sampled=193 rollbacks: n=78 %=  4.1 
+et=  510.1 n_overall=1961 opm=230 rt_tot_lastn_max_msec=561 rt_tot_avg_msec=240 rt_tot_sampled=226 rollbacks: n=79 %=  4.0 
+et=  520.1 n_overall=1993 opm=229 rt_tot_lastn_max_msec=502 rt_tot_avg_msec=240 rt_tot_sampled=235 rollbacks: n=79 %=  4.0 
+et=  530.1 n_overall=2027 opm=229 rt_tot_lastn_max_msec=502 rt_tot_avg_msec=239 rt_tot_sampled=206 rollbacks: n=80 %=  3.9 
+et=  540.1 n_overall=2068 opm=229 rt_tot_lastn_max_msec=638 rt_tot_avg_msec=240 rt_tot_sampled=259 rollbacks: n=81 %=  3.9 
+et=  550.1 n_overall=2098 opm=228 rt_tot_lastn_max_msec=638 rt_tot_avg_msec=239 rt_tot_sampled=229 rollbacks: n=84 %=  4.0 
+et=  560.1 n_overall=2140 opm=229 rt_tot_lastn_max_msec=667 rt_tot_avg_msec=240 rt_tot_sampled=262 rollbacks: n=86 %=  4.0 
+et=  570.1 n_overall=2176 opm=229 rt_tot_lastn_max_msec=667 rt_tot_avg_msec=239 rt_tot_sampled=200 rollbacks: n=87 %=  4.0 
+et=  580.1 n_overall=2214 opm=228 rt_tot_lastn_max_msec=667 rt_tot_avg_msec=239 rt_tot_sampled=243 rollbacks: n=90 %=  4.1 
+User name newuser15881 already exists
+et=  590.1 n_overall=2243 opm=228 rt_tot_lastn_max_msec=601 rt_tot_avg_msec=240 rt_tot_sampled=254 rollbacks: n=91 %=  4.1 
+et=  600.1 n_overall=2284 opm=228 rt_tot_lastn_max_msec=601 rt_tot_avg_msec=239 rt_tot_sampled=229 rollbacks: n=92 %=  4.0 
+et=  610.1 n_overall=2328 opm=228 rt_tot_lastn_max_msec=546 rt_tot_avg_msec=239 rt_tot_sampled=223 rollbacks: n=93 %=  4.0 
+et=  620.1 n_overall=2365 opm=228 rt_tot_lastn_max_msec=462 rt_tot_avg_msec=238 rt_tot_sampled=197 rollbacks: n=94 %=  4.0 
+et=  630.1 n_overall=2401 opm=228 rt_tot_lastn_max_msec=575 rt_tot_avg_msec=239 rt_tot_sampled=266 rollbacks: n=95 %=  4.0 
+et=  640.1 n_overall=2436 opm=228 rt_tot_lastn_max_msec=575 rt_tot_avg_msec=239 rt_tot_sampled=222 rollbacks: n=96 %=  3.9 
+et=  650.1 n_overall=2477 opm=228 rt_tot_lastn_max_msec=575 rt_tot_avg_msec=239 rt_tot_sampled=261 rollbacks: n=99 %=  4.0 
+et=  660.1 n_overall=2521 opm=229 rt_tot_lastn_max_msec=535 rt_tot_avg_msec=239 rt_tot_sampled=247 rollbacks: n=105 %=  4.2 
+et=  670.1 n_overall=2562 opm=229 rt_tot_lastn_max_msec=594 rt_tot_avg_msec=239 rt_tot_sampled=255 rollbacks: n=109 %=  4.3 
+et=  680.1 n_overall=2602 opm=229 rt_tot_lastn_max_msec=646 rt_tot_avg_msec=239 rt_tot_sampled=224 rollbacks: n=109 %=  4.2 
+et=  690.1 n_overall=2641 opm=229 rt_tot_lastn_max_msec=646 rt_tot_avg_msec=239 rt_tot_sampled=205 rollbacks: n=110 %=  4.2 
+et=  700.1 n_overall=2676 opm=229 rt_tot_lastn_max_msec=646 rt_tot_avg_msec=238 rt_tot_sampled=210 rollbacks: n=110 %=  4.1 
+et=  710.1 n_overall=2711 opm=229 rt_tot_lastn_max_msec=523 rt_tot_avg_msec=239 rt_tot_sampled=266 rollbacks: n=112 %=  4.1 
+et=  720.1 n_overall=2753 opm=229 rt_tot_lastn_max_msec=615 rt_tot_avg_msec=238 rt_tot_sampled=224 rollbacks: n=113 %=  4.1 
+et=  730.1 n_overall=2792 opm=229 rt_tot_lastn_max_msec=615 rt_tot_avg_msec=238 rt_tot_sampled=245 rollbacks: n=114 %=  4.1 
+et=  740.1 n_overall=2829 opm=229 rt_tot_lastn_max_msec=777 rt_tot_avg_msec=239 rt_tot_sampled=256 rollbacks: n=117 %=  4.1 
+et=  750.2 n_overall=2865 opm=229 rt_tot_lastn_max_msec=777 rt_tot_avg_msec=238 rt_tot_sampled=218 rollbacks: n=119 %=  4.2 
+et=  760.2 n_overall=2901 opm=228 rt_tot_lastn_max_msec=777 rt_tot_avg_msec=238 rt_tot_sampled=227 rollbacks: n=121 %=  4.2 
+et=  770.2 n_overall=2941 opm=229 rt_tot_lastn_max_msec=530 rt_tot_avg_msec=238 rt_tot_sampled=228 rollbacks: n=125 %=  4.3 
+et=  780.2 n_overall=2986 opm=229 rt_tot_lastn_max_msec=581 rt_tot_avg_msec=238 rt_tot_sampled=223 rollbacks: n=127 %=  4.3 
+et=  790.2 n_overall=3019 opm=229 rt_tot_lastn_max_msec=581 rt_tot_avg_msec=238 rt_tot_sampled=237 rollbacks: n=131 %=  4.3 
+et=  800.2 n_overall=3054 opm=229 rt_tot_lastn_max_msec=581 rt_tot_avg_msec=238 rt_tot_sampled=226 rollbacks: n=133 %=  4.4 
+et=  810.2 n_overall=3099 opm=229 rt_tot_lastn_max_msec=535 rt_tot_avg_msec=239 rt_tot_sampled=293 rollbacks: n=135 %=  4.4 
+et=  820.2 n_overall=3138 opm=229 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=239 rt_tot_sampled=300 rollbacks: n=138 %=  4.4 
+et=  830.2 n_overall=3169 opm=229 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=239 rt_tot_sampled=215 rollbacks: n=139 %=  4.4 
+User name newuser14427 already exists
+et=  840.2 n_overall=3207 opm=229 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=239 rt_tot_sampled=248 rollbacks: n=140 %=  4.4 
+et=  850.2 n_overall=3248 opm=229 rt_tot_lastn_max_msec=715 rt_tot_avg_msec=240 rt_tot_sampled=268 rollbacks: n=145 %=  4.5 
+et=  860.2 n_overall=3289 opm=229 rt_tot_lastn_max_msec=715 rt_tot_avg_msec=240 rt_tot_sampled=255 rollbacks: n=146 %=  4.4 
+et=  870.2 n_overall=3321 opm=228 rt_tot_lastn_max_msec=715 rt_tot_avg_msec=240 rt_tot_sampled=275 rollbacks: n=147 %=  4.4 
+et=  880.2 n_overall=3365 opm=229 rt_tot_lastn_max_msec=590 rt_tot_avg_msec=240 rt_tot_sampled=249 rollbacks: n=151 %=  4.5 
+et=  890.2 n_overall=3398 opm=229 rt_tot_lastn_max_msec=593 rt_tot_avg_msec=240 rt_tot_sampled=241 rollbacks: n=151 %=  4.4 
+et=  900.2 n_overall=3438 opm=229 rt_tot_lastn_max_msec=593 rt_tot_avg_msec=240 rt_tot_sampled=254 rollbacks: n=152 %=  4.4 
+et=  910.2 n_overall=3474 opm=229 rt_tot_lastn_max_msec=489 rt_tot_avg_msec=240 rt_tot_sampled=185 rollbacks: n=153 %=  4.4 
+et=  920.2 n_overall=3516 opm=229 rt_tot_lastn_max_msec=471 rt_tot_avg_msec=240 rt_tot_sampled=228 rollbacks: n=156 %=  4.4 
+et=  930.2 n_overall=3547 opm=228 rt_tot_lastn_max_msec=600 rt_tot_avg_msec=240 rt_tot_sampled=229 rollbacks: n=157 %=  4.4 
+et=  940.2 n_overall=3587 opm=228 rt_tot_lastn_max_msec=600 rt_tot_avg_msec=239 rt_tot_sampled=208 rollbacks: n=159 %=  4.4 
+User name newuser7103 already exists
+et=  950.2 n_overall=3626 opm=228 rt_tot_lastn_max_msec=687 rt_tot_avg_msec=239 rt_tot_sampled=262 rollbacks: n=161 %=  4.4 
+et=  960.2 n_overall=3663 opm=228 rt_tot_lastn_max_msec=749 rt_tot_avg_msec=240 rt_tot_sampled=293 rollbacks: n=163 %=  4.4 
+et=  970.2 n_overall=3702 opm=228 rt_tot_lastn_max_msec=749 rt_tot_avg_msec=240 rt_tot_sampled=231 rollbacks: n=166 %=  4.5 
+et=  980.2 n_overall=3731 opm=228 rt_tot_lastn_max_msec=749 rt_tot_avg_msec=240 rt_tot_sampled=221 rollbacks: n=170 %=  4.6 
+et=  990.2 n_overall=3767 opm=228 rt_tot_lastn_max_msec=479 rt_tot_avg_msec=240 rt_tot_sampled=234 rollbacks: n=175 %=  4.6 
+et= 1000.2 n_overall=3807 opm=228 rt_tot_lastn_max_msec=484 rt_tot_avg_msec=240 rt_tot_sampled=235 rollbacks: n=175 %=  4.6 
+et= 1010.2 n_overall=3853 opm=228 rt_tot_lastn_max_msec=586 rt_tot_avg_msec=239 rt_tot_sampled=225 rollbacks: n=178 %=  4.6 
+et= 1020.2 n_overall=3888 opm=228 rt_tot_lastn_max_msec=586 rt_tot_avg_msec=239 rt_tot_sampled=220 rollbacks: n=179 %=  4.6 
+et= 1030.2 n_overall=3924 opm=228 rt_tot_lastn_max_msec=487 rt_tot_avg_msec=239 rt_tot_sampled=186 rollbacks: n=181 %=  4.6 
+User name newuser11137 already exists
+et= 1040.2 n_overall=3969 opm=228 rt_tot_lastn_max_msec=744 rt_tot_avg_msec=239 rt_tot_sampled=271 rollbacks: n=185 %=  4.7 
+et= 1050.2 n_overall=4005 opm=228 rt_tot_lastn_max_msec=744 rt_tot_avg_msec=239 rt_tot_sampled=222 rollbacks: n=186 %=  4.6 
+et= 1060.2 n_overall=4043 opm=228 rt_tot_lastn_max_msec=744 rt_tot_avg_msec=239 rt_tot_sampled=223 rollbacks: n=191 %=  4.7 
+User name newuser8842 already exists
+et= 1070.2 n_overall=4073 opm=228 rt_tot_lastn_max_msec=603 rt_tot_avg_msec=239 rt_tot_sampled=211 rollbacks: n=192 %=  4.7 
+User name newuser19410 already exists
+et= 1080.2 n_overall=4114 opm=228 rt_tot_lastn_max_msec=468 rt_tot_avg_msec=239 rt_tot_sampled=222 rollbacks: n=194 %=  4.7 
+et= 1090.2 n_overall=4148 opm=228 rt_tot_lastn_max_msec=468 rt_tot_avg_msec=238 rt_tot_sampled=179 rollbacks: n=195 %=  4.7 
+et= 1100.2 n_overall=4185 opm=228 rt_tot_lastn_max_msec=455 rt_tot_avg_msec=238 rt_tot_sampled=212 rollbacks: n=199 %=  4.8 
+et= 1110.2 n_overall=4227 opm=228 rt_tot_lastn_max_msec=721 rt_tot_avg_msec=238 rt_tot_sampled=284 rollbacks: n=202 %=  4.8 
+et= 1120.2 n_overall=4259 opm=228 rt_tot_lastn_max_msec=721 rt_tot_avg_msec=238 rt_tot_sampled=222 rollbacks: n=203 %=  4.8 
+et= 1130.2 n_overall=4291 opm=227 rt_tot_lastn_max_msec=721 rt_tot_avg_msec=238 rt_tot_sampled=268 rollbacks: n=206 %=  4.8 
+et= 1140.2 n_overall=4329 opm=227 rt_tot_lastn_max_msec=533 rt_tot_avg_msec=239 rt_tot_sampled=260 rollbacks: n=211 %=  4.9 
+User name newuser19440 already exists
+et= 1150.2 n_overall=4375 opm=228 rt_tot_lastn_max_msec=578 rt_tot_avg_msec=238 rt_tot_sampled=233 rollbacks: n=213 %=  4.9 
+et= 1160.2 n_overall=4411 opm=228 rt_tot_lastn_max_msec=578 rt_tot_avg_msec=238 rt_tot_sampled=233 rollbacks: n=217 %=  4.9 
+et= 1170.2 n_overall=4453 opm=228 rt_tot_lastn_max_msec=578 rt_tot_avg_msec=239 rt_tot_sampled=246 rollbacks: n=221 %=  5.0 
+User name newuser14822 already exists
+et= 1180.2 n_overall=4496 opm=228 rt_tot_lastn_max_msec=613 rt_tot_avg_msec=239 rt_tot_sampled=263 rollbacks: n=226 %=  5.0 
+et= 1190.2 n_overall=4537 opm=228 rt_tot_lastn_max_msec=613 rt_tot_avg_msec=239 rt_tot_sampled=224 rollbacks: n=228 %=  5.0 
+et= 1200.2 n_overall=4577 opm=228 rt_tot_lastn_max_msec=612 rt_tot_avg_msec=239 rt_tot_sampled=254 rollbacks: n=232 %=  5.1 
+et= 1210.2 n_overall=4614 opm=228 rt_tot_lastn_max_msec=653 rt_tot_avg_msec=239 rt_tot_sampled=278 rollbacks: n=238 %=  5.2 
+et= 1220.2 n_overall=4650 opm=228 rt_tot_lastn_max_msec=653 rt_tot_avg_msec=239 rt_tot_sampled=197 rollbacks: n=242 %=  5.2 
+User name newuser18855 already exists
+User name newuser8792 already exists
+et= 1230.2 n_overall=4687 opm=228 rt_tot_lastn_max_msec=653 rt_tot_avg_msec=239 rt_tot_sampled=234 rollbacks: n=246 %=  5.2 
+User name newuser253 already exists
+et= 1240.2 n_overall=4717 opm=228 rt_tot_lastn_max_msec=645 rt_tot_avg_msec=239 rt_tot_sampled=239 rollbacks: n=249 %=  5.3 
+et= 1250.2 n_overall=4754 opm=228 rt_tot_lastn_max_msec=645 rt_tot_avg_msec=239 rt_tot_sampled=254 rollbacks: n=252 %=  5.3 
+et= 1260.2 n_overall=4785 opm=227 rt_tot_lastn_max_msec=645 rt_tot_avg_msec=239 rt_tot_sampled=256 rollbacks: n=254 %=  5.3 
+et= 1270.2 n_overall=4825 opm=227 rt_tot_lastn_max_msec=619 rt_tot_avg_msec=239 rt_tot_sampled=229 rollbacks: n=259 %=  5.4 
+et= 1280.2 n_overall=4862 opm=227 rt_tot_lastn_max_msec=659 rt_tot_avg_msec=239 rt_tot_sampled=250 rollbacks: n=261 %=  5.4 
+et= 1290.2 n_overall=4900 opm=227 rt_tot_lastn_max_msec=659 rt_tot_avg_msec=239 rt_tot_sampled=207 rollbacks: n=264 %=  5.4 
+et= 1300.2 n_overall=4943 opm=228 rt_tot_lastn_max_msec=884 rt_tot_avg_msec=239 rt_tot_sampled=311 rollbacks: n=267 %=  5.4 
+et= 1310.2 n_overall=4982 opm=228 rt_tot_lastn_max_msec=884 rt_tot_avg_msec=239 rt_tot_sampled=202 rollbacks: n=268 %=  5.4 
+et= 1320.3 n_overall=5026 opm=228 rt_tot_lastn_max_msec=884 rt_tot_avg_msec=239 rt_tot_sampled=253 rollbacks: n=273 %=  5.4 
+et= 1330.3 n_overall=5062 opm=228 rt_tot_lastn_max_msec=550 rt_tot_avg_msec=239 rt_tot_sampled=254 rollbacks: n=277 %=  5.5 
+et= 1340.3 n_overall=5108 opm=228 rt_tot_lastn_max_msec=550 rt_tot_avg_msec=239 rt_tot_sampled=238 rollbacks: n=278 %=  5.4 
+et= 1350.3 n_overall=5151 opm=228 rt_tot_lastn_max_msec=739 rt_tot_avg_msec=239 rt_tot_sampled=248 rollbacks: n=284 %=  5.5 
+et= 1360.3 n_overall=5182 opm=228 rt_tot_lastn_max_msec=739 rt_tot_avg_msec=240 rt_tot_sampled=317 rollbacks: n=285 %=  5.5 
+et= 1370.3 n_overall=5215 opm=228 rt_tot_lastn_max_msec=739 rt_tot_avg_msec=240 rt_tot_sampled=242 rollbacks: n=287 %=  5.5 
+et= 1380.3 n_overall=5255 opm=228 rt_tot_lastn_max_msec=694 rt_tot_avg_msec=240 rt_tot_sampled=210 rollbacks: n=294 %=  5.6 
+et= 1390.3 n_overall=5293 opm=228 rt_tot_lastn_max_msec=732 rt_tot_avg_msec=240 rt_tot_sampled=305 rollbacks: n=298 %=  5.6 
+User name newuser13527 already exists
+et= 1400.3 n_overall=5331 opm=228 rt_tot_lastn_max_msec=744 rt_tot_avg_msec=240 rt_tot_sampled=264 rollbacks: n=298 %=  5.6 
+User name newuser15513 already exists
+et= 1410.3 n_overall=5361 opm=228 rt_tot_lastn_max_msec=744 rt_tot_avg_msec=240 rt_tot_sampled=242 rollbacks: n=300 %=  5.6 
+et= 1420.3 n_overall=5397 opm=227 rt_tot_lastn_max_msec=744 rt_tot_avg_msec=240 rt_tot_sampled=226 rollbacks: n=303 %=  5.6 
+et= 1430.3 n_overall=5436 opm=228 rt_tot_lastn_max_msec=551 rt_tot_avg_msec=240 rt_tot_sampled=268 rollbacks: n=305 %=  5.6 
+et= 1440.3 n_overall=5483 opm=228 rt_tot_lastn_max_msec=622 rt_tot_avg_msec=241 rt_tot_sampled=281 rollbacks: n=305 %=  5.6 
+et= 1450.3 n_overall=5525 opm=228 rt_tot_lastn_max_msec=622 rt_tot_avg_msec=241 rt_tot_sampled=290 rollbacks: n=308 %=  5.6 
+et= 1460.3 n_overall=5561 opm=228 rt_tot_lastn_max_msec=612 rt_tot_avg_msec=241 rt_tot_sampled=234 rollbacks: n=311 %=  5.6 
+et= 1470.3 n_overall=5603 opm=228 rt_tot_lastn_max_msec=595 rt_tot_avg_msec=241 rt_tot_sampled=194 rollbacks: n=314 %=  5.6 
+et= 1480.3 n_overall=5637 opm=228 rt_tot_lastn_max_msec=595 rt_tot_avg_msec=241 rt_tot_sampled=251 rollbacks: n=316 %=  5.6 
+et= 1490.3 n_overall=5672 opm=228 rt_tot_lastn_max_msec=553 rt_tot_avg_msec=240 rt_tot_sampled=200 rollbacks: n=323 %=  5.7 
+et= 1500.3 n_overall=5710 opm=228 rt_tot_lastn_max_msec=553 rt_tot_avg_msec=241 rt_tot_sampled=256 rollbacks: n=324 %=  5.7 
+et= 1510.3 n_overall=5743 opm=228 rt_tot_lastn_max_msec=543 rt_tot_avg_msec=240 rt_tot_sampled=208 rollbacks: n=326 %=  5.7 
+et= 1520.3 n_overall=5788 opm=228 rt_tot_lastn_max_msec=494 rt_tot_avg_msec=240 rt_tot_sampled=207 rollbacks: n=330 %=  5.7 
+et= 1530.3 n_overall=5823 opm=228 rt_tot_lastn_max_msec=499 rt_tot_avg_msec=240 rt_tot_sampled=199 rollbacks: n=336 %=  5.8 
+et= 1540.3 n_overall=5860 opm=228 rt_tot_lastn_max_msec=499 rt_tot_avg_msec=240 rt_tot_sampled=185 rollbacks: n=339 %=  5.8 
+et= 1550.3 n_overall=5898 opm=228 rt_tot_lastn_max_msec=499 rt_tot_avg_msec=239 rt_tot_sampled=191 rollbacks: n=343 %=  5.8 
+et= 1560.3 n_overall=5935 opm=228 rt_tot_lastn_max_msec=526 rt_tot_avg_msec=239 rt_tot_sampled=230 rollbacks: n=346 %=  5.8 
+et= 1570.3 n_overall=5965 opm=227 rt_tot_lastn_max_msec=570 rt_tot_avg_msec=239 rt_tot_sampled=220 rollbacks: n=347 %=  5.8 
+et= 1580.3 n_overall=6004 opm=227 rt_tot_lastn_max_msec=925 rt_tot_avg_msec=239 rt_tot_sampled=293 rollbacks: n=352 %=  5.9 
+et= 1590.3 n_overall=6044 opm=228 rt_tot_lastn_max_msec=925 rt_tot_avg_msec=240 rt_tot_sampled=279 rollbacks: n=357 %=  5.9 
+et= 1600.3 n_overall=6080 opm=227 rt_tot_lastn_max_msec=651 rt_tot_avg_msec=240 rt_tot_sampled=226 rollbacks: n=361 %=  5.9 
+et= 1610.4 n_overall=6118 opm=227 rt_tot_lastn_max_msec=571 rt_tot_avg_msec=239 rt_tot_sampled=200 rollbacks: n=365 %=  6.0 
+et= 1620.4 n_overall=6157 opm=227 rt_tot_lastn_max_msec=632 rt_tot_avg_msec=239 rt_tot_sampled=244 rollbacks: n=368 %=  6.0 
+et= 1630.4 n_overall=6196 opm=228 rt_tot_lastn_max_msec=632 rt_tot_avg_msec=239 rt_tot_sampled=242 rollbacks: n=372 %=  6.0 
+et= 1640.4 n_overall=6232 opm=227 rt_tot_lastn_max_msec=631 rt_tot_avg_msec=239 rt_tot_sampled=251 rollbacks: n=374 %=  6.0 
+et= 1650.4 n_overall=6275 opm=228 rt_tot_lastn_max_msec=592 rt_tot_avg_msec=239 rt_tot_sampled=203 rollbacks: n=376 %=  6.0 
+et= 1660.4 n_overall=6313 opm=228 rt_tot_lastn_max_msec=527 rt_tot_avg_msec=239 rt_tot_sampled=228 rollbacks: n=376 %=  6.0 
+et= 1670.4 n_overall=6357 opm=228 rt_tot_lastn_max_msec=698 rt_tot_avg_msec=239 rt_tot_sampled=282 rollbacks: n=379 %=  6.0 
+User name newuser11337 already exists
+et= 1680.4 n_overall=6396 opm=228 rt_tot_lastn_max_msec=698 rt_tot_avg_msec=240 rt_tot_sampled=257 rollbacks: n=382 %=  6.0 
+et= 1690.4 n_overall=6443 opm=228 rt_tot_lastn_max_msec=842 rt_tot_avg_msec=240 rt_tot_sampled=333 rollbacks: n=388 %=  6.0 
+et= 1700.4 n_overall=6478 opm=228 rt_tot_lastn_max_msec=842 rt_tot_avg_msec=240 rt_tot_sampled=263 rollbacks: n=392 %=  6.1 
+et= 1710.4 n_overall=6518 opm=228 rt_tot_lastn_max_msec=842 rt_tot_avg_msec=240 rt_tot_sampled=236 rollbacks: n=397 %=  6.1 
+et= 1720.4 n_overall=6554 opm=228 rt_tot_lastn_max_msec=706 rt_tot_avg_msec=240 rt_tot_sampled=269 rollbacks: n=400 %=  6.1 
+et= 1730.4 n_overall=6588 opm=228 rt_tot_lastn_max_msec=706 rt_tot_avg_msec=240 rt_tot_sampled=209 rollbacks: n=403 %=  6.1 
+et= 1740.4 n_overall=6626 opm=228 rt_tot_lastn_max_msec=706 rt_tot_avg_msec=240 rt_tot_sampled=269 rollbacks: n=404 %=  6.1 
+et= 1750.4 n_overall=6670 opm=228 rt_tot_lastn_max_msec=612 rt_tot_avg_msec=240 rt_tot_sampled=239 rollbacks: n=405 %=  6.1 
+et= 1760.4 n_overall=6711 opm=228 rt_tot_lastn_max_msec=648 rt_tot_avg_msec=241 rt_tot_sampled=279 rollbacks: n=408 %=  6.1 
+et= 1770.4 n_overall=6738 opm=228 rt_tot_lastn_max_msec=648 rt_tot_avg_msec=241 rt_tot_sampled=198 rollbacks: n=411 %=  6.1 
+et= 1780.4 n_overall=6789 opm=228 rt_tot_lastn_max_msec=932 rt_tot_avg_msec=241 rt_tot_sampled=275 rollbacks: n=417 %=  6.1 
+et= 1790.4 n_overall=6830 opm=228 rt_tot_lastn_max_msec=932 rt_tot_avg_msec=241 rt_tot_sampled=256 rollbacks: n=422 %=  6.2 
+et= 1800.4 n_overall=6868 opm=228 rt_tot_lastn_max_msec=587 rt_tot_avg_msec=241 rt_tot_sampled=230 rollbacks: n=424 %=  6.2 
+et= 1810.5 n_overall=6906 opm=228 rt_tot_lastn_max_msec=501 rt_tot_avg_msec=241 rt_tot_sampled=250 rollbacks: n=428 %=  6.2 
+User name newuser15439 already exists
+et= 1820.5 n_overall=6944 opm=228 rt_tot_lastn_max_msec=618 rt_tot_avg_msec=241 rt_tot_sampled=285 rollbacks: n=433 %=  6.2 
+et= 1830.5 n_overall=6982 opm=228 rt_tot_lastn_max_msec=642 rt_tot_avg_msec=241 rt_tot_sampled=263 rollbacks: n=435 %=  6.2 
+et= 1840.5 n_overall=7018 opm=228 rt_tot_lastn_max_msec=642 rt_tot_avg_msec=241 rt_tot_sampled=215 rollbacks: n=439 %=  6.3 
+User name newuser2509 already exists
+et= 1850.5 n_overall=7054 opm=228 rt_tot_lastn_max_msec=642 rt_tot_avg_msec=241 rt_tot_sampled=262 rollbacks: n=442 %=  6.3 
+et= 1860.5 n_overall=7089 opm=228 rt_tot_lastn_max_msec=590 rt_tot_avg_msec=241 rt_tot_sampled=230 rollbacks: n=445 %=  6.3 
+et= 1870.5 n_overall=7127 opm=228 rt_tot_lastn_max_msec=591 rt_tot_avg_msec=241 rt_tot_sampled=248 rollbacks: n=448 %=  6.3 
+et= 1880.5 n_overall=7165 opm=228 rt_tot_lastn_max_msec=638 rt_tot_avg_msec=241 rt_tot_sampled=265 rollbacks: n=451 %=  6.3 
+et= 1890.5 n_overall=7203 opm=228 rt_tot_lastn_max_msec=638 rt_tot_avg_msec=241 rt_tot_sampled=231 rollbacks: n=456 %=  6.3 
+User name newuser10200 already exists
+et= 1900.5 n_overall=7244 opm=228 rt_tot_lastn_max_msec=590 rt_tot_avg_msec=241 rt_tot_sampled=250 rollbacks: n=461 %=  6.4 
+et= 1910.5 n_overall=7282 opm=228 rt_tot_lastn_max_msec=674 rt_tot_avg_msec=241 rt_tot_sampled=257 rollbacks: n=463 %=  6.4 
+et= 1920.5 n_overall=7316 opm=228 rt_tot_lastn_max_msec=674 rt_tot_avg_msec=241 rt_tot_sampled=235 rollbacks: n=467 %=  6.4 
+et= 1930.5 n_overall=7353 opm=228 rt_tot_lastn_max_msec=579 rt_tot_avg_msec=241 rt_tot_sampled=251 rollbacks: n=472 %=  6.4 
+et= 1940.5 n_overall=7391 opm=228 rt_tot_lastn_max_msec=580 rt_tot_avg_msec=242 rt_tot_sampled=269 rollbacks: n=475 %=  6.4 
+et= 1950.5 n_overall=7428 opm=228 rt_tot_lastn_max_msec=580 rt_tot_avg_msec=241 rt_tot_sampled=216 rollbacks: n=482 %=  6.5 
+User name newuser19348 already exists
+et= 1960.5 n_overall=7468 opm=228 rt_tot_lastn_max_msec=580 rt_tot_avg_msec=241 rt_tot_sampled=209 rollbacks: n=483 %=  6.5 
+et= 1970.5 n_overall=7500 opm=228 rt_tot_lastn_max_msec=653 rt_tot_avg_msec=241 rt_tot_sampled=277 rollbacks: n=491 %=  6.5 
+et= 1980.5 n_overall=7543 opm=228 rt_tot_lastn_max_msec=653 rt_tot_avg_msec=241 rt_tot_sampled=248 rollbacks: n=500 %=  6.6 
+User name newuser6558 already exists
+et= 1990.5 n_overall=7579 opm=228 rt_tot_lastn_max_msec=641 rt_tot_avg_msec=241 rt_tot_sampled=235 rollbacks: n=503 %=  6.6 
+et= 2000.5 n_overall=7617 opm=228 rt_tot_lastn_max_msec=676 rt_tot_avg_msec=242 rt_tot_sampled=287 rollbacks: n=507 %=  6.7 
+et= 2010.6 n_overall=7651 opm=228 rt_tot_lastn_max_msec=942 rt_tot_avg_msec=242 rt_tot_sampled=340 rollbacks: n=509 %=  6.7 
+et= 2020.6 n_overall=7692 opm=228 rt_tot_lastn_max_msec=1396 rt_tot_avg_msec=244 rt_tot_sampled=605 rollbacks: n=517 %=  6.7 
+et= 2030.6 n_overall=7726 opm=228 rt_tot_lastn_max_msec=1396 rt_tot_avg_msec=246 rt_tot_sampled=597 rollbacks: n=519 %=  6.7 
+et= 2040.6 n_overall=7761 opm=228 rt_tot_lastn_max_msec=3609 rt_tot_avg_msec=250 rt_tot_sampled=1124 rollbacks: n=521 %=  6.7 
+et= 2050.6 n_overall=7799 opm=228 rt_tot_lastn_max_msec=3609 rt_tot_avg_msec=251 rt_tot_sampled=571 rollbacks: n=526 %=  6.7 
+et= 2060.6 n_overall=7828 opm=227 rt_tot_lastn_max_msec=3609 rt_tot_avg_msec=252 rt_tot_sampled=533 rollbacks: n=535 %=  6.8 
+User name newuser19996 already exists
+et= 2070.6 n_overall=7859 opm=227 rt_tot_lastn_max_msec=1061 rt_tot_avg_msec=253 rt_tot_sampled=535 rollbacks: n=538 %=  6.8 
+et= 2080.6 n_overall=7891 opm=227 rt_tot_lastn_max_msec=1061 rt_tot_avg_msec=254 rt_tot_sampled=483 rollbacks: n=540 %=  6.8 
+et= 2090.6 n_overall=7935 opm=227 rt_tot_lastn_max_msec=1008 rt_tot_avg_msec=255 rt_tot_sampled=357 rollbacks: n=546 %=  6.9 
+et= 2100.6 n_overall=7970 opm=227 rt_tot_lastn_max_msec=969 rt_tot_avg_msec=255 rt_tot_sampled=276 rollbacks: n=547 %=  6.9 
+et= 2110.6 n_overall=8009 opm=227 rt_tot_lastn_max_msec=1154 rt_tot_avg_msec=256 rt_tot_sampled=504 rollbacks: n=552 %=  6.9 
+et= 2120.6 n_overall=8047 opm=227 rt_tot_lastn_max_msec=1154 rt_tot_avg_msec=257 rt_tot_sampled=367 rollbacks: n=556 %=  6.9 
+et= 2130.6 n_overall=8084 opm=227 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=580 rollbacks: n=558 %=  6.9 
+Error during ds2browse returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 0: Error in Browse by title, thread exiting
+Error during ds2browse returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 19: Error in Browse by actor, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 8: Error in Login for User user17085, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 7: Error in Login for User user11116, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 6: Error in Login for User user1704, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 10: Error in Login for User user6212, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 1: Error in Login for User user16423, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 2: Error in Login for User user17969, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 11: Error in Login for User user19340, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 14: Error in Login for User user18656, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 4: Error in Login for User user1809, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 18: Error in Login for User user3888, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 16: Error in Login for User user15043, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 3: Error in Login for User user15053, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 13: Error in Login for User user9920, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 9: Error in Login for User user1518, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 17: Error in Login for User user13570, thread exiting
+et= 2140.6 n_overall=8097 opm=226 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=470 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 15: Error in Login for User user18638, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 5: Error in Login for User user17344, thread exiting
+Error during ds2login returned from web server: The remote server returned an error: (500) Internal Server Error.
+Thread 12: Error in Login for User user12556, thread exiting
+et= 2150.6 n_overall=8097 opm=225 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2160.6 n_overall=8097 opm=224 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2170.6 n_overall=8097 opm=223 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2180.6 n_overall=8097 opm=222 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2190.6 n_overall=8097 opm=221 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2200.6 n_overall=8097 opm=220 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2210.6 n_overall=8097 opm=219 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2220.6 n_overall=8097 opm=218 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2230.6 n_overall=8097 opm=217 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2240.6 n_overall=8097 opm=216 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2250.7 n_overall=8097 opm=215 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2260.7 n_overall=8097 opm=214 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2270.7 n_overall=8097 opm=213 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2280.7 n_overall=8097 opm=213 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2290.7 n_overall=8097 opm=212 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2300.7 n_overall=8097 opm=211 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2310.7 n_overall=8097 opm=210 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2320.7 n_overall=8097 opm=209 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2330.7 n_overall=8097 opm=208 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2340.7 n_overall=8097 opm=207 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2350.7 n_overall=8097 opm=206 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2360.7 n_overall=8097 opm=205 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2370.7 n_overall=8097 opm=204 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2380.7 n_overall=8097 opm=204 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2390.7 n_overall=8097 opm=203 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2400.7 n_overall=8097 opm=202 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2410.7 n_overall=8097 opm=201 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2420.7 n_overall=8097 opm=200 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2430.7 n_overall=8097 opm=199 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2440.7 n_overall=8097 opm=199 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2450.7 n_overall=8097 opm=198 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2460.7 n_overall=8097 opm=197 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2470.7 n_overall=8097 opm=196 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2480.7 n_overall=8097 opm=195 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2490.7 n_overall=8097 opm=195 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2500.7 n_overall=8097 opm=194 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2510.7 n_overall=8097 opm=193 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2520.8 n_overall=8097 opm=192 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2530.8 n_overall=8097 opm=191 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2540.8 n_overall=8097 opm=191 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2550.8 n_overall=8097 opm=190 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2560.8 n_overall=8097 opm=189 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2570.8 n_overall=8097 opm=188 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2580.8 n_overall=8097 opm=188 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2590.8 n_overall=8097 opm=187 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2600.8 n_overall=8097 opm=186 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2610.8 n_overall=8097 opm=186 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2620.8 n_overall=8097 opm=185 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2630.8 n_overall=8097 opm=184 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2640.8 n_overall=8097 opm=183 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2650.8 n_overall=8097 opm=183 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2660.8 n_overall=8097 opm=182 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2670.8 n_overall=8097 opm=181 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2680.8 n_overall=8097 opm=181 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2690.8 n_overall=8097 opm=180 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2700.8 n_overall=8097 opm=179 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2710.8 n_overall=8097 opm=179 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2720.8 n_overall=8097 opm=178 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2730.8 n_overall=8097 opm=177 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2740.8 n_overall=8097 opm=177 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2750.8 n_overall=8097 opm=176 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2760.8 n_overall=8097 opm=175 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2770.8 n_overall=8097 opm=175 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2780.8 n_overall=8097 opm=174 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2790.8 n_overall=8097 opm=174 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2800.8 n_overall=8097 opm=173 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2810.8 n_overall=8097 opm=172 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2820.8 n_overall=8097 opm=172 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2830.8 n_overall=8097 opm=171 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2840.8 n_overall=8097 opm=171 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2850.8 n_overall=8097 opm=170 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2860.8 n_overall=8097 opm=169 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2870.8 n_overall=8097 opm=169 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2880.8 n_overall=8097 opm=168 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2890.8 n_overall=8097 opm=168 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2900.9 n_overall=8097 opm=167 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2910.9 n_overall=8097 opm=166 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2920.9 n_overall=8097 opm=166 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2930.9 n_overall=8097 opm=165 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2940.9 n_overall=8097 opm=165 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2950.9 n_overall=8097 opm=164 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2960.9 n_overall=8097 opm=164 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2970.9 n_overall=8097 opm=163 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2980.9 n_overall=8097 opm=162 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 2990.9 n_overall=8097 opm=162 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3000.9 n_overall=8097 opm=161 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3010.9 n_overall=8097 opm=161 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3020.9 n_overall=8097 opm=160 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3030.9 n_overall=8097 opm=160 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3040.9 n_overall=8097 opm=159 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3050.9 n_overall=8097 opm=159 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3060.9 n_overall=8097 opm=158 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3070.9 n_overall=8097 opm=158 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3080.9 n_overall=8097 opm=157 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3090.9 n_overall=8097 opm=157 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3100.9 n_overall=8097 opm=156 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3110.9 n_overall=8097 opm=156 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3120.9 n_overall=8097 opm=155 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3130.9 n_overall=8097 opm=155 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3140.9 n_overall=8097 opm=154 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3150.9 n_overall=8097 opm=154 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3160.9 n_overall=8097 opm=153 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3170.9 n_overall=8097 opm=153 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3180.9 n_overall=8097 opm=152 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3190.9 n_overall=8097 opm=152 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3200.9 n_overall=8097 opm=151 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3210.9 n_overall=8097 opm=151 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3220.9 n_overall=8097 opm=150 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3230.9 n_overall=8097 opm=150 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3240.9 n_overall=8097 opm=149 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3250.9 n_overall=8097 opm=149 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3260.9 n_overall=8097 opm=148 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3270.9 n_overall=8097 opm=148 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3280.9 n_overall=8097 opm=148 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3290.9 n_overall=8097 opm=147 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3300.9 n_overall=8097 opm=147 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3310.9 n_overall=8097 opm=146 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3320.9 n_overall=8097 opm=146 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3330.9 n_overall=8097 opm=145 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3340.9 n_overall=8097 opm=145 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3350.9 n_overall=8097 opm=144 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3360.9 n_overall=8097 opm=144 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3370.9 n_overall=8097 opm=144 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3380.9 n_overall=8097 opm=143 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3390.9 n_overall=8097 opm=143 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3400.9 n_overall=8097 opm=142 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3411.0 n_overall=8097 opm=142 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3421.0 n_overall=8097 opm=142 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3431.0 n_overall=8097 opm=141 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3441.0 n_overall=8097 opm=141 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3451.0 n_overall=8097 opm=140 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3461.0 n_overall=8097 opm=140 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3471.0 n_overall=8097 opm=139 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3481.0 n_overall=8097 opm=139 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3491.0 n_overall=8097 opm=139 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3501.0 n_overall=8097 opm=138 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3511.0 n_overall=8097 opm=138 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3521.0 n_overall=8097 opm=137 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3531.0 n_overall=8097 opm=137 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3541.0 n_overall=8097 opm=137 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3551.0 n_overall=8097 opm=136 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3561.0 n_overall=8097 opm=136 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3571.0 n_overall=8097 opm=136 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3581.0 n_overall=8097 opm=135 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3591.0 n_overall=8097 opm=135 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+et= 3601.0 n_overall=8097 opm=134 rt_tot_lastn_max_msec=1813 rt_tot_avg_msec=258 rt_tot_sampled=-2147483648 rollbacks: n=558 %=  6.9 
+threads[0].ThreadState= Stopped
+threads[1].ThreadState= Stopped
+threads[2].ThreadState= Stopped
+threads[3].ThreadState= Stopped
+threads[4].ThreadState= Stopped
+threads[5].ThreadState= Stopped
+threads[6].ThreadState= Stopped
+threads[7].ThreadState= Stopped
+threads[8].ThreadState= Stopped
+threads[9].ThreadState= Stopped
+threads[10].ThreadState= Stopped
+threads[11].ThreadState= Stopped
+threads[12].ThreadState= Stopped
+threads[13].ThreadState= Stopped
+threads[14].ThreadState= Stopped
+threads[15].ThreadState= Stopped
+threads[16].ThreadState= Stopped
+threads[17].ThreadState= Stopped
+threads[18].ThreadState= Stopped
+threads[19].ThreadState= Stopped
+
+Final (7/25/2017 5:40:33 PM): et= 3601.0 n_overall=8097 opm=134 rt_tot_lastn_max=1813 rt_tot_avg=258 n_login_overall=7296 n_newcust_overall=801 n_browse_overall=80681 n_purchase_overall=8097 rt_login_avg_msec=20 rt_newcust_avg_msec=25 rt_browse_avg_msec=10 rt_purchase_avg_msec=128 rt_tot_sampled=-2147483648 n_rollbacks_overall=558 rollback_rate =   6.9%
+Controller (7/25/2017 5:40:33 PM): all threads stopped, exiting
+n_purchase_from_start= 9278 n_rollbacks_from_start= 587
+Run over

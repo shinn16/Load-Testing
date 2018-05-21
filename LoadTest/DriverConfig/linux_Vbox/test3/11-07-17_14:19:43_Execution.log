@@ -1,0 +1,128 @@
+Total number of Threads to be Spawned across multiple servers are n_threads: 30
+target= 192.168.1.130:8080  n_threads= 30  ramp_rate= 10  run_time= 1  db_size= 10mb  warmup_time= 1  think_time= 5
+pct_newcustomers= 20  n_searches= 10  search_batch_size= 5  n_line_items= 5  virt_dir= ds2  page_type= jsp  windows_perf_host=  detailed_view= Y linux_perf_host= 
+
+Using .NET DateTime for measuring response time
+
+Not generating Windows Performance Monitor Counters
+Thread 0: created for User 0
+Thread 2: created for User 2
+Thread 1: created for User 1
+Thread 3: created for User 3
+Thread 4: created for User 4
+Thread 5: created for User 5
+Thread 6: created for User 6
+Thread 7: created for User 7
+Thread 8: created for User 8
+Thread 9: created for User 9
+Thread 10: created for User 10
+Thread 11: created for User 11
+Thread 12: created for User 12
+Thread 13: created for User 13
+Thread 14: created for User 14
+Thread 15: created for User 15
+Thread 16: created for User 16
+Thread 17: created for User 17
+Thread 18: created for User 18
+Thread 19: created for User 19
+Thread 20: created for User 20
+Thread 21: created for User 21
+Thread 22: created for User 22
+Thread 23: created for User 23
+Thread 24: created for User 24
+Thread 25: created for User 25
+Thread 26: created for User 26
+Thread 27: created for User 27
+Thread 28: created for User 28
+Thread 29: created for User 29
+Controller (7/11/2017 2:20:27 PM): all threads running
+Controller: n_threads_connected = 0 : ConnectionTimeOut remaining 60
+Thread 8: connected to 192.168.1.130:8080
+Thread 1: connected to 192.168.1.130:8080
+Thread 3: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 3 : ConnectionTimeOut remaining 59
+Thread 15: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 4 : ConnectionTimeOut remaining 58
+Thread 29: connected to 192.168.1.130:8080
+Thread 22: connected to 192.168.1.130:8080
+Thread 13: connected to 192.168.1.130:8080
+Thread 27: connected to 192.168.1.130:8080
+Thread 6: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 9 : ConnectionTimeOut remaining 57
+Thread 25: connected to 192.168.1.130:8080
+Thread 20: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 11 : ConnectionTimeOut remaining 56
+Thread 9: connected to 192.168.1.130:8080
+Thread 16: connected to 192.168.1.130:8080
+Thread 11: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 14 : ConnectionTimeOut remaining 55
+Thread 18: connected to 192.168.1.130:8080
+Thread 4: connected to 192.168.1.130:8080
+Thread 23: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 17 : ConnectionTimeOut remaining 54
+Thread 0: connected to 192.168.1.130:8080
+Thread 21: connected to 192.168.1.130:8080
+Thread 7: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 20 : ConnectionTimeOut remaining 53
+Thread 14: connected to 192.168.1.130:8080
+Thread 2: connected to 192.168.1.130:8080
+Thread 19: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 23 : ConnectionTimeOut remaining 52
+Thread 28: connected to 192.168.1.130:8080
+Thread 26: connected to 192.168.1.130:8080
+Thread 12: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 26 : ConnectionTimeOut remaining 51
+Thread 17: connected to 192.168.1.130:8080
+Thread 24: connected to 192.168.1.130:8080
+Thread 10: connected to 192.168.1.130:8080
+Thread 5: connected to 192.168.1.130:8080
+Controller (7/11/2017 2:20:37 PM): all threads connected - issuing Start
+et=   10.0 n_overall=61 opm=365 rt_tot_lastn_max_msec=3113 rt_tot_avg_msec=1279 rt_tot_sampled=1279 rollbacks: n=3 %=  4.9 
+et=   20.0 n_overall=115 opm=344 rt_tot_lastn_max_msec=3113 rt_tot_avg_msec=844 rt_tot_sampled=351 rollbacks: n=3 %=  2.6 
+et=   30.0 n_overall=168 opm=335 rt_tot_lastn_max_msec=665 rt_tot_avg_msec=680 rt_tot_sampled=324 rollbacks: n=4 %=  2.4 
+et=   40.0 n_overall=220 opm=329 rt_tot_lastn_max_msec=665 rt_tot_avg_msec=597 rt_tot_sampled=331 rollbacks: n=8 %=  3.6 
+et=   50.0 n_overall=269 opm=322 rt_tot_lastn_max_msec=894 rt_tot_avg_msec=550 rt_tot_sampled=336 rollbacks: n=8 %=  3.0 
+et=   60.0 n_overall=323 opm=322 rt_tot_lastn_max_msec=894 rt_tot_avg_msec=507 rt_tot_sampled=296 rollbacks: n=9 %=  2.8 
+Stats reset
+et=   10.0 n_overall=59 opm=353 rt_tot_lastn_max_msec=673 rt_tot_avg_msec=318 rt_tot_sampled=318 rollbacks: n=2 %=  3.4 
+User name newuser12706 already exists
+et=   20.0 n_overall=118 opm=353 rt_tot_lastn_max_msec=707 rt_tot_avg_msec=328 rt_tot_sampled=339 rollbacks: n=3 %=  2.5 
+et=   30.0 n_overall=182 opm=363 rt_tot_lastn_max_msec=529 rt_tot_avg_msec=317 rt_tot_sampled=296 rollbacks: n=5 %=  2.7 
+et=   40.0 n_overall=238 opm=356 rt_tot_lastn_max_msec=675 rt_tot_avg_msec=321 rt_tot_sampled=335 rollbacks: n=6 %=  2.5 
+et=   50.0 n_overall=290 opm=347 rt_tot_lastn_max_msec=727 rt_tot_avg_msec=322 rt_tot_sampled=328 rollbacks: n=7 %=  2.4 
+et=   60.0 n_overall=352 opm=351 rt_tot_lastn_max_msec=727 rt_tot_avg_msec=324 rt_tot_sampled=329 rollbacks: n=11 %=  3.1 
+
+Final (7/11/2017 2:22:37 PM): et=   60.0 n_overall=352 opm=351 rt_tot_lastn_max=727 rt_tot_avg=324 n_login_overall=280 n_newcust_overall=72 n_browse_overall=3382 n_purchase_overall=352 rt_login_avg_msec=20 rt_newcust_avg_msec=65 rt_browse_avg_msec=11 rt_purchase_avg_msec=180 rt_tot_sampled=329 n_rollbacks_overall=11 rollback_rate =   3.1%
+Thread 21: exiting
+Thread 23: exiting
+Thread 9: exiting
+Thread 22: exiting
+Thread 2: exiting
+Thread 19: exiting
+Thread 5: exiting
+Thread 27: exiting
+Thread 11: exiting
+Thread 4: exiting
+Thread 6: exiting
+Thread 17: exiting
+Thread 25: exiting
+Thread 7: exiting
+Thread 15: exiting
+Thread 14: exiting
+Thread 13: exiting
+Thread 3: exiting
+Thread 18: exiting
+Thread 28: exiting
+Thread 1: exiting
+Thread 16: exiting
+Thread 26: exiting
+Thread 12: exiting
+Thread 8: exiting
+Thread 20: exiting
+Thread 24: exiting
+Thread 29: exiting
+Thread 10: exiting
+Thread 0: exiting
+Controller (7/11/2017 2:22:44 PM): all threads stopped, exiting
+n_purchase_from_start= 676 n_rollbacks_from_start= 20
+Run over

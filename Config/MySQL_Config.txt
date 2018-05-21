@@ -1,0 +1,8 @@
+## Auto generated config file
+IP=192.168.1.104
+USER_NAME=neo
+PASSWORD=@cite123
+FOLDER=./monitor
+ARGS="-t MySQL -r 2 -s 2"
+ANALYZE="-t MySQL -c 0 -s 2 --raw=True"
+MACHINE=MySQL

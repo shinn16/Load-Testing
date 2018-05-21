@@ -1,0 +1,129 @@
+Total number of Threads to be Spawned across multiple servers are n_threads: 30
+target= 192.168.1.130:8080  n_threads= 30  ramp_rate= 10  run_time= 1  db_size= 10mb  warmup_time= 1  think_time= 5
+pct_newcustomers= 20  n_searches= 10  search_batch_size= 5  n_line_items= 5  virt_dir= ds2  page_type= jsp  windows_perf_host=  detailed_view= Y linux_perf_host= 
+
+Using .NET DateTime for measuring response time
+
+Not generating Windows Performance Monitor Counters
+Thread 0: created for User 0
+Thread 2: created for User 2
+Thread 1: created for User 1
+Thread 3: created for User 3
+Thread 4: created for User 4
+Thread 5: created for User 5
+Thread 6: created for User 6
+Thread 7: created for User 7
+Thread 8: created for User 8
+Thread 9: created for User 9
+Thread 10: created for User 10
+Thread 11: created for User 11
+Thread 12: created for User 12
+Thread 13: created for User 13
+Thread 14: created for User 14
+Thread 15: created for User 15
+Thread 16: created for User 16
+Thread 17: created for User 17
+Thread 18: created for User 18
+Thread 19: created for User 19
+Thread 20: created for User 20
+Thread 21: created for User 21
+Thread 22: created for User 22
+Thread 23: created for User 23
+Thread 24: created for User 24
+Thread 25: created for User 25
+Thread 26: created for User 26
+Thread 27: created for User 27
+Thread 28: created for User 28
+Thread 29: created for User 29
+Thread 3: connected to 192.168.1.130:8080
+Controller (7/12/2017 2:00:04 PM): all threads running
+Controller: n_threads_connected = 1 : ConnectionTimeOut remaining 60
+Thread 29: connected to 192.168.1.130:8080
+Thread 15: connected to 192.168.1.130:8080
+Thread 1: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 4 : ConnectionTimeOut remaining 59
+Thread 27: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 5 : ConnectionTimeOut remaining 58
+Thread 22: connected to 192.168.1.130:8080
+Thread 13: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 7 : ConnectionTimeOut remaining 57
+Thread 8: connected to 192.168.1.130:8080
+Thread 4: connected to 192.168.1.130:8080
+Thread 20: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 10 : ConnectionTimeOut remaining 56
+Thread 6: connected to 192.168.1.130:8080
+Thread 18: connected to 192.168.1.130:8080
+Thread 23: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 13 : ConnectionTimeOut remaining 55
+Thread 11: connected to 192.168.1.130:8080
+Thread 25: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 15 : ConnectionTimeOut remaining 54
+Thread 14: connected to 192.168.1.130:8080
+Thread 9: connected to 192.168.1.130:8080
+Thread 21: connected to 192.168.1.130:8080
+Thread 7: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 19 : ConnectionTimeOut remaining 53
+Thread 16: connected to 192.168.1.130:8080
+Thread 2: connected to 192.168.1.130:8080
+Thread 28: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 22 : ConnectionTimeOut remaining 52
+Thread 0: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 23 : ConnectionTimeOut remaining 51
+Thread 26: connected to 192.168.1.130:8080
+Thread 19: connected to 192.168.1.130:8080
+Thread 24: connected to 192.168.1.130:8080
+Thread 5: connected to 192.168.1.130:8080
+Thread 10: connected to 192.168.1.130:8080
+Controller: n_threads_connected = 28 : ConnectionTimeOut remaining 50
+Thread 12: connected to 192.168.1.130:8080
+Thread 17: connected to 192.168.1.130:8080
+Controller (7/12/2017 2:00:15 PM): all threads connected - issuing Start
+et=   10.0 n_overall=50 opm=299 rt_tot_lastn_max_msec=4706 rt_tot_avg_msec=2520 rt_tot_sampled=2520 rollbacks: n=4 %=  8.0 
+et=   20.0 n_overall=105 opm=314 rt_tot_lastn_max_msec=4706 rt_tot_avg_msec=1405 rt_tot_sampled=391 rollbacks: n=8 %=  7.6 
+et=   30.0 n_overall=159 opm=317 rt_tot_lastn_max_msec=1097 rt_tot_avg_msec=1035 rt_tot_sampled=316 rollbacks: n=11 %=  6.9 
+et=   40.0 n_overall=214 opm=320 rt_tot_lastn_max_msec=638 rt_tot_avg_msec=851 rt_tot_sampled=318 rollbacks: n=13 %=  6.1 
+et=   50.0 n_overall=273 opm=327 rt_tot_lastn_max_msec=638 rt_tot_avg_msec=734 rt_tot_sampled=309 rollbacks: n=14 %=  5.1 
+et=   60.0 n_overall=327 opm=326 rt_tot_lastn_max_msec=504 rt_tot_avg_msec=662 rt_tot_sampled=302 rollbacks: n=16 %=  4.9 
+Stats reset
+et=   10.0 n_overall=59 opm=353 rt_tot_lastn_max_msec=904 rt_tot_avg_msec=347 rt_tot_sampled=347 rollbacks: n=4 %=  6.8 
+User name newuser18864 already exists
+et=   20.0 n_overall=118 opm=353 rt_tot_lastn_max_msec=904 rt_tot_avg_msec=325 rt_tot_sampled=304 rollbacks: n=8 %=  6.8 
+et=   30.0 n_overall=171 opm=341 rt_tot_lastn_max_msec=514 rt_tot_avg_msec=315 rt_tot_sampled=292 rollbacks: n=12 %=  7.0 
+et=   40.0 n_overall=226 opm=338 rt_tot_lastn_max_msec=615 rt_tot_avg_msec=308 rt_tot_sampled=285 rollbacks: n=16 %=  7.1 
+et=   50.0 n_overall=284 opm=340 rt_tot_lastn_max_msec=646 rt_tot_avg_msec=309 rt_tot_sampled=312 rollbacks: n=20 %=  7.0 
+et=   60.0 n_overall=340 opm=339 rt_tot_lastn_max_msec=667 rt_tot_avg_msec=314 rt_tot_sampled=338 rollbacks: n=23 %=  6.8 
+
+Final (7/12/2017 2:02:15 PM): et=   60.0 n_overall=340 opm=339 rt_tot_lastn_max=667 rt_tot_avg=314 n_login_overall=278 n_newcust_overall=62 n_browse_overall=3555 n_purchase_overall=340 rt_login_avg_msec=21 rt_newcust_avg_msec=63 rt_browse_avg_msec=11 rt_purchase_avg_msec=165 rt_tot_sampled=338 n_rollbacks_overall=23 rollback_rate =   6.8%
+Thread 0: exiting
+Thread 19: exiting
+Thread 24: exiting
+Thread 1: exiting
+Thread 7: exiting
+Thread 2: exiting
+Thread 18: exiting
+Thread 14: exiting
+Thread 3: exiting
+Thread 12: exiting
+Thread 9: exiting
+Thread 20: exiting
+Thread 16: exiting
+Thread 25: exiting
+Thread 21: exiting
+Thread 10: exiting
+Thread 4: exiting
+Thread 15: exiting
+Thread 8: exiting
+Thread 11: exiting
+Thread 17: exiting
+Thread 26: exiting
+Thread 13: exiting
+Thread 22: exiting
+Thread 23: exiting
+Thread 6: exiting
+Thread 28: exiting
+Thread 27: exiting
+Thread 5: exiting
+Thread 29: exiting
+Controller (7/12/2017 2:02:23 PM): all threads stopped, exiting
+n_purchase_from_start= 671 n_rollbacks_from_start= 39
+Run over

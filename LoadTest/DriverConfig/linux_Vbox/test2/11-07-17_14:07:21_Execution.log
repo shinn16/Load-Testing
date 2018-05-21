@@ -1,0 +1,99 @@
+Total number of Threads to be Spawned across multiple servers are n_threads: 30
+target= 192.168.1.105:8080  n_threads= 30  ramp_rate= 10  run_time= 1  db_size= 10mb  warmup_time= 1  think_time= 5
+pct_newcustomers= 20  n_searches= 10  search_batch_size= 5  n_line_items= 5  virt_dir= ds2  page_type= jsp  windows_perf_host=  detailed_view= Y linux_perf_host= 
+
+Using .NET DateTime for measuring response time
+
+Not generating Windows Performance Monitor Counters
+Thread 0: created for User 0
+Thread 2: created for User 2
+Thread 1: created for User 1
+Thread 3: created for User 3
+Thread 4: created for User 4
+Thread 5: created for User 5
+Thread 6: created for User 6
+Thread 7: created for User 7
+Thread 8: created for User 8
+Thread 9: created for User 9
+Thread 10: created for User 10
+Thread 11: created for User 11
+Thread 12: created for User 12
+Thread 13: created for User 13
+Thread 14: created for User 14
+Thread 15: created for User 15
+Thread 16: created for User 16
+Thread 17: created for User 17
+Thread 18: created for User 18
+Thread 19: created for User 19
+Thread 20: created for User 20
+Thread 21: created for User 21
+Thread 22: created for User 22
+Thread 23: created for User 23
+Thread 24: created for User 24
+Thread 25: created for User 25
+Thread 26: created for User 26
+Thread 27: created for User 27
+Thread 28: created for User 28
+Thread 29: created for User 29
+Controller (7/11/2017 2:08:05 PM): all threads running
+Controller: n_threads_connected = 0 : ConnectionTimeOut remaining 60
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 1: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 3: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 27: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 15: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 29: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 13: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 22: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 8: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 20: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 18: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 6: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 11: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 4: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 16: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 25: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 2: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 21: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 23: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 9: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 28: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 0: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 7: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 14: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 19: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 10: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 24: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 26: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 12: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 5: can't connect to 192.168.1.105:8080; exiting
+Error returned from web server: Error: ConnectFailure (Connection refused)
+Thread 17: can't connect to 192.168.1.105:8080; exiting

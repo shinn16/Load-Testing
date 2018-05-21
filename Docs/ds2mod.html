@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load Testing a VM vs PM | DS2 Mod</title>
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css" />
+    <link rel="icon" href="/content/images/favicon.ico">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="http://www.marshall.edu/cite/home/academic/divisions/computer-science-program/" target="_blank"><img src="content/images/mu_logo_blk.png" id="muLogo"></a>
+            <h1 id="home"><a href="/index.html">Load Testing a VM vs PM</a></h1>
+            <nav class="page_nav">
+                <table>
+                    <tr>
+                        <td><a href="/research.html">Research</a></td>
+                        <td><a href="http://linux.dell.com/dvdstore/" target="_blank">DS2</a></td>
+                        <td><a href="/ds2mod.html" target="_blank">DS2 Mod</a></td>
+                        <td><a href="/tools.html">Tools</a></td>
+                        <td><a href="/resources.html">Resources</a></td>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <div class="white">
+                    <h2 class="contentHeader">DS2 Modifications</h2>
+                        <p class="content">
+                            For the purpose of this research, the original DS2 files have been lighlty modified. The jsp implementation for DS2 was utilitzed, so the infrastructure for using the jsp files
+                            was modified to fit the needs of the research. The changes include:
+                        </p>
+                        <ul class="content">
+                            <li>ds2webdriver code changed to print to standard output instead of standard error</li>
+                            <li>Database generation scripts updated to work with MySQL 5.7 (Type ==> Engine syntax change)</li>
+                            <li>ds2webdriver compiled with <a href="http://www.mono-project.com/" target="_blank" class="link">mono</a> so that it runs on Linux machines.</li>
+                            <li>General usability (chmod +x all shell scripts)</li>
+                            <li>JSP files modified to work with remote MySQL server</li>
+                            <li>Cleanup of the root directory</li>
+                            <li>Additional dirver config files added</li>
+                        </ul>
+                        <p class="content">
+                            A zipped archive of the modified ds2 files can be downloaded <a href="/content/ds2.zip" class="link">here</a>.
+                        </p>
+                </div>
+            </article>
+        </main>
+        <footer class="footer_nav">
+            <table>
+                <tr>
+                    <td><a href="http://www.marshall.edu" target="_blank">Marshall University</a> | </td>
+                    <td><a href="http://www.marshall.edu/sure/" target="_blank">SURE Program</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Researcher: <a href="https://shinn16.github.io/" target="_blank">Patrick Shinn</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Mentor: <a href="http://haroonmalik1.wix.com/haroon-malik" target="_blank">Haroon Malik</a></td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>

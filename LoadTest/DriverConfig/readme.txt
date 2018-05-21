@@ -1,0 +1,1 @@
+DriverConfig is the test driver, all tests in this folder are only 2 minutes long and should not be considered valid data. Config is only run for testing the environment to ensure it works and to ensure the automation software works.

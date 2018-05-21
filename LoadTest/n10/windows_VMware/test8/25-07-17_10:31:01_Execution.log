@@ -1,0 +1,459 @@
+Total number of Threads to be Spawned across multiple servers are n_threads: 10
+target= 192.168.1.135:8080  n_threads= 10  ramp_rate= 5  run_time= 60  db_size= 10mb  warmup_time= 5  think_time= 5
+pct_newcustomers= 10  n_searches= 10  search_batch_size= 5  n_line_items= 5  virt_dir= ds2  page_type= jsp  windows_perf_host=  detailed_view= Y linux_perf_host= 
+
+Using .NET DateTime for measuring response time
+
+Not generating Windows Performance Monitor Counters
+Thread 0: created for User 0
+Thread 1: created for User 1
+Thread 2: created for User 2
+Thread 3: created for User 3
+Thread 4: created for User 4
+Thread 5: created for User 5
+Thread 6: created for User 6
+Thread 7: created for User 7
+Thread 8: created for User 8
+Thread 9: created for User 9
+Controller (7/25/2017 10:36:23 AM): all threads running
+Controller: n_threads_connected = 0 : ConnectionTimeOut remaining 60
+Thread 3: connected to 192.168.1.135:8080
+Controller: n_threads_connected = 1 : ConnectionTimeOut remaining 59
+Thread 8: connected to 192.168.1.135:8080
+Thread 1: connected to 192.168.1.135:8080
+Controller: n_threads_connected = 3 : ConnectionTimeOut remaining 58
+Controller: n_threads_connected = 3 : ConnectionTimeOut remaining 57
+Thread 6: connected to 192.168.1.135:8080
+Thread 4: connected to 192.168.1.135:8080
+Controller: n_threads_connected = 5 : ConnectionTimeOut remaining 56
+Thread 2: connected to 192.168.1.135:8080
+Controller: n_threads_connected = 6 : ConnectionTimeOut remaining 55
+Thread 9: connected to 192.168.1.135:8080
+Controller: n_threads_connected = 7 : ConnectionTimeOut remaining 54
+Thread 0: connected to 192.168.1.135:8080
+Controller: n_threads_connected = 8 : ConnectionTimeOut remaining 53
+Thread 7: connected to 192.168.1.135:8080
+Controller: n_threads_connected = 9 : ConnectionTimeOut remaining 52
+Controller: n_threads_connected = 9 : ConnectionTimeOut remaining 51
+Thread 5: connected to 192.168.1.135:8080
+Controller (7/25/2017 10:36:33 AM): all threads connected - issuing Start
+et=   10.0 n_overall=18 opm=108 rt_tot_lastn_max_msec=2687 rt_tot_avg_msec=1493 rt_tot_sampled=1493 rollbacks: n=1 %=  5.6 
+et=   20.0 n_overall=37 opm=111 rt_tot_lastn_max_msec=2687 rt_tot_avg_msec=1014 rt_tot_sampled=561 rollbacks: n=1 %=  2.7 
+et=   30.0 n_overall=56 opm=112 rt_tot_lastn_max_msec=2687 rt_tot_avg_msec=823 rt_tot_sampled=451 rollbacks: n=3 %=  5.4 
+et=   40.0 n_overall=76 opm=114 rt_tot_lastn_max_msec=2687 rt_tot_avg_msec=728 rt_tot_sampled=463 rollbacks: n=3 %=  3.9 
+et=   50.0 n_overall=97 opm=116 rt_tot_lastn_max_msec=2687 rt_tot_avg_msec=685 rt_tot_sampled=530 rollbacks: n=4 %=  4.1 
+et=   60.0 n_overall=115 opm=115 rt_tot_lastn_max_msec=1281 rt_tot_avg_msec=651 rt_tot_sampled=465 rollbacks: n=5 %=  4.3 
+et=   70.0 n_overall=134 opm=114 rt_tot_lastn_max_msec=1156 rt_tot_avg_msec=606 rt_tot_sampled=333 rollbacks: n=5 %=  3.7 
+et=   80.0 n_overall=153 opm=114 rt_tot_lastn_max_msec=1156 rt_tot_avg_msec=571 rt_tot_sampled=330 rollbacks: n=5 %=  3.3 
+et=   90.0 n_overall=171 opm=114 rt_tot_lastn_max_msec=1156 rt_tot_avg_msec=545 rt_tot_sampled=315 rollbacks: n=5 %=  2.9 
+et=  100.0 n_overall=188 opm=112 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=533 rt_tot_sampled=415 rollbacks: n=5 %=  2.7 
+et=  110.0 n_overall=206 opm=112 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=523 rt_tot_sampled=420 rollbacks: n=5 %=  2.4 
+et=  120.0 n_overall=225 opm=112 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=516 rt_tot_sampled=445 rollbacks: n=5 %=  2.2 
+et=  130.0 n_overall=241 opm=111 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=512 rt_tot_sampled=456 rollbacks: n=5 %=  2.1 
+et=  140.0 n_overall=259 opm=111 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=499 rt_tot_sampled=316 rollbacks: n=5 %=  1.9 
+et=  150.0 n_overall=277 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=487 rt_tot_sampled=313 rollbacks: n=5 %=  1.8 
+et=  160.0 n_overall=296 opm=111 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=483 rt_tot_sampled=430 rollbacks: n=5 %=  1.7 
+et=  170.0 n_overall=316 opm=111 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=474 rt_tot_sampled=339 rollbacks: n=7 %=  2.2 
+et=  180.0 n_overall=337 opm=112 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=466 rt_tot_sampled=346 rollbacks: n=7 %=  2.1 
+et=  190.0 n_overall=356 opm=112 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=459 rt_tot_sampled=337 rollbacks: n=7 %=  2.0 
+et=  200.0 n_overall=373 opm=111 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=454 rt_tot_sampled=346 rollbacks: n=8 %=  2.1 
+et=  210.0 n_overall=396 opm=113 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=449 rt_tot_sampled=369 rollbacks: n=9 %=  2.3 
+et=  220.0 n_overall=412 opm=112 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=445 rt_tot_sampled=356 rollbacks: n=9 %=  2.2 
+et=  230.0 n_overall=433 opm=112 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=441 rt_tot_sampled=351 rollbacks: n=10 %=  2.3 
+et=  240.0 n_overall=452 opm=113 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=438 rt_tot_sampled=367 rollbacks: n=11 %=  2.4 
+et=  250.0 n_overall=469 opm=112 rt_tot_lastn_max_msec=1484 rt_tot_avg_msec=443 rt_tot_sampled=583 rollbacks: n=13 %=  2.8 
+et=  260.0 n_overall=488 opm=112 rt_tot_lastn_max_msec=1484 rt_tot_avg_msec=441 rt_tot_sampled=402 rollbacks: n=13 %=  2.7 
+et=  270.0 n_overall=504 opm=112 rt_tot_lastn_max_msec=1484 rt_tot_avg_msec=439 rt_tot_sampled=360 rollbacks: n=14 %=  2.8 
+et=  280.0 n_overall=523 opm=112 rt_tot_lastn_max_msec=1484 rt_tot_avg_msec=435 rt_tot_sampled=322 rollbacks: n=14 %=  2.7 
+et=  290.0 n_overall=543 opm=112 rt_tot_lastn_max_msec=1484 rt_tot_avg_msec=432 rt_tot_sampled=369 rollbacks: n=14 %=  2.6 
+et=  300.0 n_overall=560 opm=111 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=430 rt_tot_sampled=365 rollbacks: n=14 %=  2.5 
+Stats reset
+et=   10.0 n_overall=19 opm=114 rt_tot_lastn_max_msec=656 rt_tot_avg_msec=375 rt_tot_sampled=375 rollbacks: n=0 %=  0.0 
+et=   20.0 n_overall=38 opm=114 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=377 rt_tot_sampled=379 rollbacks: n=1 %=  2.6 
+et=   30.0 n_overall=62 opm=124 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=379 rt_tot_sampled=382 rollbacks: n=3 %=  4.8 
+et=   40.0 n_overall=81 opm=121 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=396 rt_tot_sampled=452 rollbacks: n=4 %=  4.9 
+et=   50.0 n_overall=98 opm=117 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=386 rt_tot_sampled=340 rollbacks: n=5 %=  5.1 
+et=   60.0 n_overall=117 opm=117 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=380 rt_tot_sampled=347 rollbacks: n=5 %=  4.3 
+et=   70.0 n_overall=135 opm=115 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=377 rt_tot_sampled=355 rollbacks: n=5 %=  3.7 
+et=   80.0 n_overall=159 opm=119 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=372 rt_tot_sampled=348 rollbacks: n=7 %=  4.4 
+et=   90.0 n_overall=176 opm=117 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=371 rt_tot_sampled=358 rollbacks: n=7 %=  4.0 
+et=  100.0 n_overall=193 opm=115 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=367 rt_tot_sampled=328 rollbacks: n=9 %=  4.7 
+et=  110.0 n_overall=210 opm=114 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=369 rt_tot_sampled=390 rollbacks: n=9 %=  4.3 
+et=  120.0 n_overall=229 opm=114 rt_tot_lastn_max_msec=640 rt_tot_avg_msec=370 rt_tot_sampled=382 rollbacks: n=9 %=  3.9 
+et=  130.0 n_overall=250 opm=115 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=377 rt_tot_sampled=458 rollbacks: n=10 %=  4.0 
+et=  140.0 n_overall=265 opm=113 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=374 rt_tot_sampled=309 rollbacks: n=10 %=  3.8 
+et=  150.0 n_overall=281 opm=112 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=378 rt_tot_sampled=458 rollbacks: n=10 %=  3.6 
+et=  160.0 n_overall=299 opm=112 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=375 rt_tot_sampled=316 rollbacks: n=11 %=  3.7 
+et=  170.0 n_overall=321 opm=113 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=380 rt_tot_sampled=446 rollbacks: n=12 %=  3.7 
+et=  180.0 n_overall=340 opm=113 rt_tot_lastn_max_msec=953 rt_tot_avg_msec=384 rt_tot_sampled=467 rollbacks: n=13 %=  3.8 
+et=  190.0 n_overall=359 opm=113 rt_tot_lastn_max_msec=953 rt_tot_avg_msec=386 rt_tot_sampled=411 rollbacks: n=14 %=  3.9 
+et=  200.0 n_overall=378 opm=113 rt_tot_lastn_max_msec=953 rt_tot_avg_msec=386 rt_tot_sampled=394 rollbacks: n=16 %=  4.2 
+et=  210.0 n_overall=400 opm=114 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=386 rt_tot_sampled=388 rollbacks: n=17 %=  4.3 
+et=  220.0 n_overall=418 opm=114 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=386 rt_tot_sampled=379 rollbacks: n=18 %=  4.3 
+et=  230.0 n_overall=437 opm=114 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=384 rt_tot_sampled=342 rollbacks: n=19 %=  4.3 
+et=  240.0 n_overall=454 opm=113 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=383 rt_tot_sampled=348 rollbacks: n=20 %=  4.4 
+et=  250.0 n_overall=471 opm=113 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=381 rt_tot_sampled=338 rollbacks: n=20 %=  4.2 
+et=  260.0 n_overall=491 opm=113 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=382 rt_tot_sampled=404 rollbacks: n=20 %=  4.1 
+et=  270.0 n_overall=506 opm=112 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=381 rt_tot_sampled=332 rollbacks: n=21 %=  4.2 
+et=  280.0 n_overall=523 opm=112 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=383 rt_tot_sampled=444 rollbacks: n=22 %=  4.2 
+et=  290.0 n_overall=542 opm=112 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=384 rt_tot_sampled=408 rollbacks: n=22 %=  4.1 
+et=  300.0 n_overall=559 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=381 rt_tot_sampled=314 rollbacks: n=22 %=  3.9 
+et=  310.0 n_overall=575 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=380 rt_tot_sampled=337 rollbacks: n=22 %=  3.8 
+et=  320.0 n_overall=594 opm=111 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=382 rt_tot_sampled=422 rollbacks: n=22 %=  3.7 
+et=  330.0 n_overall=614 opm=111 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=381 rt_tot_sampled=352 rollbacks: n=22 %=  3.6 
+et=  340.0 n_overall=634 opm=111 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=381 rt_tot_sampled=387 rollbacks: n=24 %=  3.8 
+et=  350.0 n_overall=655 opm=112 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=380 rt_tot_sampled=369 rollbacks: n=25 %=  3.8 
+et=  360.0 n_overall=673 opm=112 rt_tot_lastn_max_msec=671 rt_tot_avg_msec=380 rt_tot_sampled=359 rollbacks: n=26 %=  3.9 
+et=  370.0 n_overall=692 opm=112 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=379 rt_tot_sampled=339 rollbacks: n=26 %=  3.8 
+et=  380.0 n_overall=715 opm=112 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=380 rt_tot_sampled=421 rollbacks: n=26 %=  3.6 
+et=  390.0 n_overall=737 opm=113 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=380 rt_tot_sampled=384 rollbacks: n=26 %=  3.5 
+et=  400.0 n_overall=760 opm=114 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=379 rt_tot_sampled=330 rollbacks: n=26 %=  3.4 
+et=  410.0 n_overall=780 opm=114 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=378 rt_tot_sampled=346 rollbacks: n=26 %=  3.3 
+et=  420.0 n_overall=799 opm=114 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=378 rt_tot_sampled=407 rollbacks: n=28 %=  3.5 
+et=  430.0 n_overall=816 opm=113 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=378 rt_tot_sampled=354 rollbacks: n=28 %=  3.4 
+et=  440.0 n_overall=833 opm=113 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=377 rt_tot_sampled=306 rollbacks: n=28 %=  3.4 
+et=  450.0 n_overall=850 opm=113 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=378 rt_tot_sampled=434 rollbacks: n=29 %=  3.4 
+et=  460.0 n_overall=874 opm=114 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=378 rt_tot_sampled=378 rollbacks: n=30 %=  3.4 
+et=  470.0 n_overall=891 opm=113 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=376 rt_tot_sampled=302 rollbacks: n=32 %=  3.6 
+et=  480.0 n_overall=907 opm=113 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=376 rt_tot_sampled=385 rollbacks: n=34 %=  3.7 
+et=  490.0 n_overall=927 opm=113 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=376 rt_tot_sampled=378 rollbacks: n=34 %=  3.7 
+et=  500.0 n_overall=943 opm=113 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=377 rt_tot_sampled=392 rollbacks: n=34 %=  3.6 
+et=  510.0 n_overall=962 opm=113 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=375 rt_tot_sampled=310 rollbacks: n=34 %=  3.5 
+et=  520.0 n_overall=981 opm=113 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=374 rt_tot_sampled=310 rollbacks: n=35 %=  3.6 
+et=  530.0 n_overall=1003 opm=113 rt_tot_lastn_max_msec=671 rt_tot_avg_msec=373 rt_tot_sampled=322 rollbacks: n=36 %=  3.6 
+et=  540.0 n_overall=1021 opm=113 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=374 rt_tot_sampled=426 rollbacks: n=37 %=  3.6 
+et=  550.0 n_overall=1040 opm=113 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=374 rt_tot_sampled=379 rollbacks: n=37 %=  3.6 
+et=  560.0 n_overall=1055 opm=113 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=373 rt_tot_sampled=331 rollbacks: n=39 %=  3.7 
+et=  570.0 n_overall=1070 opm=112 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=373 rt_tot_sampled=320 rollbacks: n=40 %=  3.7 
+et=  580.0 n_overall=1086 opm=112 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=372 rt_tot_sampled=358 rollbacks: n=40 %=  3.7 
+et=  590.0 n_overall=1102 opm=112 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=373 rt_tot_sampled=416 rollbacks: n=40 %=  3.6 
+et=  600.0 n_overall=1124 opm=112 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=373 rt_tot_sampled=376 rollbacks: n=41 %=  3.6 
+et=  610.0 n_overall=1143 opm=112 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=373 rt_tot_sampled=395 rollbacks: n=44 %=  3.8 
+et=  620.0 n_overall=1162 opm=112 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=373 rt_tot_sampled=360 rollbacks: n=45 %=  3.9 
+et=  630.0 n_overall=1176 opm=112 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=374 rt_tot_sampled=410 rollbacks: n=45 %=  3.8 
+et=  640.0 n_overall=1196 opm=112 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=374 rt_tot_sampled=414 rollbacks: n=45 %=  3.8 
+et=  650.0 n_overall=1213 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=373 rt_tot_sampled=304 rollbacks: n=46 %=  3.8 
+et=  660.0 n_overall=1231 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=373 rt_tot_sampled=374 rollbacks: n=47 %=  3.8 
+et=  670.0 n_overall=1252 opm=112 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=373 rt_tot_sampled=348 rollbacks: n=47 %=  3.8 
+et=  680.0 n_overall=1266 opm=111 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=374 rt_tot_sampled=495 rollbacks: n=47 %=  3.7 
+et=  690.0 n_overall=1286 opm=111 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=375 rt_tot_sampled=431 rollbacks: n=48 %=  3.7 
+et=  700.0 n_overall=1299 opm=111 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=375 rt_tot_sampled=394 rollbacks: n=48 %=  3.7 
+User name newuser10669 already exists
+et=  710.0 n_overall=1317 opm=111 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=375 rt_tot_sampled=355 rollbacks: n=48 %=  3.6 
+et=  720.0 n_overall=1334 opm=111 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=375 rt_tot_sampled=377 rollbacks: n=48 %=  3.6 
+et=  730.0 n_overall=1350 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=375 rt_tot_sampled=377 rollbacks: n=48 %=  3.6 
+et=  740.0 n_overall=1369 opm=111 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=375 rt_tot_sampled=338 rollbacks: n=48 %=  3.5 
+et=  750.0 n_overall=1387 opm=110 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=374 rt_tot_sampled=358 rollbacks: n=50 %=  3.6 
+et=  760.0 n_overall=1403 opm=110 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=374 rt_tot_sampled=339 rollbacks: n=51 %=  3.6 
+et=  770.0 n_overall=1423 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=374 rt_tot_sampled=381 rollbacks: n=52 %=  3.7 
+et=  780.0 n_overall=1442 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=373 rt_tot_sampled=314 rollbacks: n=54 %=  3.7 
+et=  790.0 n_overall=1456 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=374 rt_tot_sampled=400 rollbacks: n=54 %=  3.7 
+User name newuser12241 already exists
+et=  800.0 n_overall=1474 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=374 rt_tot_sampled=375 rollbacks: n=54 %=  3.7 
+et=  810.0 n_overall=1493 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=374 rt_tot_sampled=370 rollbacks: n=55 %=  3.7 
+et=  820.0 n_overall=1514 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=373 rt_tot_sampled=360 rollbacks: n=56 %=  3.7 
+et=  830.0 n_overall=1532 opm=110 rt_tot_lastn_max_msec=750 rt_tot_avg_msec=373 rt_tot_sampled=375 rollbacks: n=56 %=  3.7 
+et=  840.0 n_overall=1551 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=374 rt_tot_sampled=398 rollbacks: n=56 %=  3.6 
+et=  850.0 n_overall=1568 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=374 rt_tot_sampled=403 rollbacks: n=56 %=  3.6 
+et=  860.0 n_overall=1584 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=375 rt_tot_sampled=430 rollbacks: n=56 %=  3.5 
+et=  870.0 n_overall=1604 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=374 rt_tot_sampled=347 rollbacks: n=57 %=  3.6 
+et=  880.0 n_overall=1622 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=374 rt_tot_sampled=378 rollbacks: n=57 %=  3.5 
+et=  890.0 n_overall=1643 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=374 rt_tot_sampled=356 rollbacks: n=58 %=  3.5 
+et=  900.0 n_overall=1662 opm=110 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=376 rt_tot_sampled=513 rollbacks: n=58 %=  3.5 
+et=  910.0 n_overall=1682 opm=110 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=375 rt_tot_sampled=341 rollbacks: n=58 %=  3.4 
+et=  920.0 n_overall=1701 opm=110 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=375 rt_tot_sampled=335 rollbacks: n=58 %=  3.4 
+et=  930.0 n_overall=1720 opm=110 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=374 rt_tot_sampled=299 rollbacks: n=58 %=  3.4 
+et=  940.0 n_overall=1740 opm=111 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=373 rt_tot_sampled=311 rollbacks: n=58 %=  3.3 
+et=  950.0 n_overall=1758 opm=111 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=372 rt_tot_sampled=294 rollbacks: n=60 %=  3.4 
+et=  960.0 n_overall=1779 opm=111 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=373 rt_tot_sampled=384 rollbacks: n=63 %=  3.5 
+User name newuser3170 already exists
+et=  970.0 n_overall=1797 opm=111 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=373 rt_tot_sampled=386 rollbacks: n=66 %=  3.7 
+et=  980.0 n_overall=1812 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=372 rt_tot_sampled=333 rollbacks: n=66 %=  3.6 
+et=  990.0 n_overall=1830 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=372 rt_tot_sampled=312 rollbacks: n=66 %=  3.6 
+et= 1000.0 n_overall=1847 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=371 rt_tot_sampled=318 rollbacks: n=66 %=  3.6 
+et= 1010.0 n_overall=1865 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=371 rt_tot_sampled=338 rollbacks: n=66 %=  3.5 
+et= 1020.0 n_overall=1881 opm=110 rt_tot_lastn_max_msec=750 rt_tot_avg_msec=371 rt_tot_sampled=332 rollbacks: n=66 %=  3.5 
+et= 1030.0 n_overall=1903 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=370 rt_tot_sampled=344 rollbacks: n=67 %=  3.5 
+et= 1040.0 n_overall=1921 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=370 rt_tot_sampled=356 rollbacks: n=68 %=  3.5 
+et= 1050.0 n_overall=1940 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=369 rt_tot_sampled=246 rollbacks: n=68 %=  3.5 
+et= 1060.0 n_overall=1959 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=369 rt_tot_sampled=335 rollbacks: n=68 %=  3.5 
+et= 1070.0 n_overall=1980 opm=111 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=368 rt_tot_sampled=355 rollbacks: n=72 %=  3.6 
+et= 1080.0 n_overall=1997 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=369 rt_tot_sampled=399 rollbacks: n=75 %=  3.8 
+et= 1090.0 n_overall=2014 opm=110 rt_tot_lastn_max_msec=750 rt_tot_avg_msec=369 rt_tot_sampled=400 rollbacks: n=76 %=  3.8 
+et= 1100.0 n_overall=2037 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=370 rt_tot_sampled=421 rollbacks: n=78 %=  3.8 
+et= 1110.0 n_overall=2054 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=369 rt_tot_sampled=308 rollbacks: n=78 %=  3.8 
+et= 1120.0 n_overall=2074 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=369 rt_tot_sampled=381 rollbacks: n=82 %=  4.0 
+et= 1130.0 n_overall=2092 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=369 rt_tot_sampled=363 rollbacks: n=82 %=  3.9 
+et= 1140.0 n_overall=2111 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=369 rt_tot_sampled=364 rollbacks: n=82 %=  3.9 
+et= 1150.0 n_overall=2131 opm=111 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=370 rt_tot_sampled=418 rollbacks: n=82 %=  3.8 
+et= 1160.0 n_overall=2153 opm=111 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=370 rt_tot_sampled=372 rollbacks: n=82 %=  3.8 
+et= 1170.0 n_overall=2169 opm=111 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=369 rt_tot_sampled=286 rollbacks: n=82 %=  3.8 
+et= 1180.0 n_overall=2186 opm=111 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=369 rt_tot_sampled=329 rollbacks: n=83 %=  3.8 
+et= 1190.0 n_overall=2201 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=368 rt_tot_sampled=345 rollbacks: n=83 %=  3.8 
+et= 1200.0 n_overall=2219 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=369 rt_tot_sampled=404 rollbacks: n=84 %=  3.8 
+et= 1210.0 n_overall=2239 opm=111 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=369 rt_tot_sampled=355 rollbacks: n=85 %=  3.8 
+et= 1220.0 n_overall=2261 opm=111 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=368 rt_tot_sampled=327 rollbacks: n=86 %=  3.8 
+et= 1230.0 n_overall=2284 opm=111 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=368 rt_tot_sampled=330 rollbacks: n=88 %=  3.9 
+et= 1240.0 n_overall=2303 opm=111 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=368 rt_tot_sampled=413 rollbacks: n=89 %=  3.9 
+et= 1250.0 n_overall=2327 opm=111 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=368 rt_tot_sampled=361 rollbacks: n=91 %=  3.9 
+et= 1260.0 n_overall=2346 opm=111 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=368 rt_tot_sampled=357 rollbacks: n=94 %=  4.0 
+et= 1270.0 n_overall=2365 opm=111 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=368 rt_tot_sampled=324 rollbacks: n=95 %=  4.0 
+et= 1280.0 n_overall=2379 opm=111 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=368 rt_tot_sampled=367 rollbacks: n=95 %=  4.0 
+et= 1290.0 n_overall=2397 opm=111 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=368 rt_tot_sampled=396 rollbacks: n=96 %=  4.0 
+et= 1300.0 n_overall=2415 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=368 rt_tot_sampled=424 rollbacks: n=97 %=  4.0 
+et= 1310.0 n_overall=2435 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=368 rt_tot_sampled=323 rollbacks: n=98 %=  4.0 
+et= 1320.0 n_overall=2453 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=368 rt_tot_sampled=327 rollbacks: n=98 %=  4.0 
+et= 1330.0 n_overall=2472 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=368 rt_tot_sampled=366 rollbacks: n=99 %=  4.0 
+et= 1340.0 n_overall=2491 opm=111 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=368 rt_tot_sampled=356 rollbacks: n=99 %=  4.0 
+et= 1350.0 n_overall=2510 opm=111 rt_tot_lastn_max_msec=671 rt_tot_avg_msec=367 rt_tot_sampled=324 rollbacks: n=100 %=  4.0 
+et= 1360.0 n_overall=2529 opm=111 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=367 rt_tot_sampled=334 rollbacks: n=102 %=  4.0 
+et= 1370.0 n_overall=2544 opm=111 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=367 rt_tot_sampled=382 rollbacks: n=103 %=  4.0 
+et= 1380.0 n_overall=2562 opm=111 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=367 rt_tot_sampled=332 rollbacks: n=105 %=  4.1 
+et= 1390.0 n_overall=2580 opm=111 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=367 rt_tot_sampled=342 rollbacks: n=108 %=  4.2 
+et= 1400.0 n_overall=2599 opm=111 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=367 rt_tot_sampled=472 rollbacks: n=110 %=  4.2 
+et= 1410.0 n_overall=2616 opm=111 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=368 rt_tot_sampled=413 rollbacks: n=110 %=  4.2 
+et= 1420.0 n_overall=2637 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=368 rt_tot_sampled=434 rollbacks: n=110 %=  4.2 
+et= 1430.0 n_overall=2659 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=368 rt_tot_sampled=326 rollbacks: n=113 %=  4.2 
+et= 1440.0 n_overall=2675 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=368 rt_tot_sampled=392 rollbacks: n=114 %=  4.3 
+et= 1450.0 n_overall=2690 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=368 rt_tot_sampled=367 rollbacks: n=116 %=  4.3 
+User name newuser11527 already exists
+et= 1460.0 n_overall=2713 opm=111 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=369 rt_tot_sampled=472 rollbacks: n=117 %=  4.3 
+et= 1470.0 n_overall=2732 opm=111 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=369 rt_tot_sampled=433 rollbacks: n=119 %=  4.4 
+et= 1480.0 n_overall=2750 opm=111 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=369 rt_tot_sampled=380 rollbacks: n=120 %=  4.4 
+et= 1490.0 n_overall=2764 opm=111 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=369 rt_tot_sampled=314 rollbacks: n=120 %=  4.3 
+et= 1500.0 n_overall=2780 opm=111 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=369 rt_tot_sampled=368 rollbacks: n=122 %=  4.4 
+et= 1510.0 n_overall=2803 opm=111 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=370 rt_tot_sampled=472 rollbacks: n=124 %=  4.4 
+et= 1520.0 n_overall=2817 opm=111 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=370 rt_tot_sampled=354 rollbacks: n=124 %=  4.4 
+et= 1530.0 n_overall=2836 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=370 rt_tot_sampled=436 rollbacks: n=124 %=  4.4 
+et= 1540.0 n_overall=2855 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=370 rt_tot_sampled=375 rollbacks: n=125 %=  4.4 
+et= 1550.0 n_overall=2869 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=370 rt_tot_sampled=327 rollbacks: n=126 %=  4.4 
+et= 1560.0 n_overall=2890 opm=111 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=370 rt_tot_sampled=414 rollbacks: n=126 %=  4.4 
+et= 1570.0 n_overall=2907 opm=111 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=370 rt_tot_sampled=354 rollbacks: n=126 %=  4.3 
+et= 1580.0 n_overall=2925 opm=111 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=370 rt_tot_sampled=381 rollbacks: n=127 %=  4.3 
+et= 1590.0 n_overall=2940 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=371 rt_tot_sampled=400 rollbacks: n=127 %=  4.3 
+et= 1600.0 n_overall=2963 opm=111 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=371 rt_tot_sampled=403 rollbacks: n=131 %=  4.4 
+et= 1610.0 n_overall=2979 opm=111 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=371 rt_tot_sampled=393 rollbacks: n=133 %=  4.5 
+et= 1620.0 n_overall=2994 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=371 rt_tot_sampled=346 rollbacks: n=133 %=  4.4 
+et= 1630.0 n_overall=3013 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=371 rt_tot_sampled=397 rollbacks: n=134 %=  4.4 
+et= 1640.0 n_overall=3029 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=371 rt_tot_sampled=316 rollbacks: n=134 %=  4.4 
+et= 1650.0 n_overall=3046 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=371 rt_tot_sampled=379 rollbacks: n=136 %=  4.5 
+et= 1660.0 n_overall=3064 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=371 rt_tot_sampled=409 rollbacks: n=137 %=  4.5 
+et= 1670.0 n_overall=3078 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=371 rt_tot_sampled=412 rollbacks: n=137 %=  4.5 
+et= 1680.0 n_overall=3098 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=372 rt_tot_sampled=449 rollbacks: n=137 %=  4.4 
+et= 1690.0 n_overall=3118 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=372 rt_tot_sampled=423 rollbacks: n=138 %=  4.4 
+et= 1700.0 n_overall=3142 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=372 rt_tot_sampled=396 rollbacks: n=141 %=  4.5 
+et= 1710.0 n_overall=3158 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=372 rt_tot_sampled=397 rollbacks: n=141 %=  4.5 
+et= 1720.0 n_overall=3181 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=372 rt_tot_sampled=382 rollbacks: n=142 %=  4.5 
+et= 1730.0 n_overall=3199 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=372 rt_tot_sampled=368 rollbacks: n=144 %=  4.5 
+et= 1740.0 n_overall=3218 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=372 rt_tot_sampled=338 rollbacks: n=147 %=  4.6 
+User name newuser17733 already exists
+et= 1750.0 n_overall=3236 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=372 rt_tot_sampled=381 rollbacks: n=148 %=  4.6 
+et= 1760.0 n_overall=3255 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=372 rt_tot_sampled=402 rollbacks: n=149 %=  4.6 
+et= 1770.0 n_overall=3274 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=372 rt_tot_sampled=385 rollbacks: n=151 %=  4.6 
+et= 1780.0 n_overall=3291 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=372 rt_tot_sampled=324 rollbacks: n=151 %=  4.6 
+et= 1790.0 n_overall=3308 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=372 rt_tot_sampled=386 rollbacks: n=151 %=  4.6 
+User name newuser12086 already exists
+et= 1800.0 n_overall=3326 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=373 rt_tot_sampled=436 rollbacks: n=155 %=  4.7 
+User name newuser8579 already exists
+et= 1810.0 n_overall=3350 opm=111 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=373 rt_tot_sampled=462 rollbacks: n=155 %=  4.6 
+et= 1820.0 n_overall=3367 opm=111 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=374 rt_tot_sampled=420 rollbacks: n=157 %=  4.7 
+et= 1830.0 n_overall=3384 opm=110 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=374 rt_tot_sampled=441 rollbacks: n=158 %=  4.7 
+et= 1840.0 n_overall=3402 opm=110 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=374 rt_tot_sampled=463 rollbacks: n=158 %=  4.6 
+et= 1850.0 n_overall=3418 opm=110 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=375 rt_tot_sampled=493 rollbacks: n=158 %=  4.6 
+et= 1860.0 n_overall=3433 opm=110 rt_tot_lastn_max_msec=953 rt_tot_avg_msec=375 rt_tot_sampled=471 rollbacks: n=158 %=  4.6 
+et= 1870.0 n_overall=3455 opm=110 rt_tot_lastn_max_msec=953 rt_tot_avg_msec=376 rt_tot_sampled=493 rollbacks: n=161 %=  4.7 
+et= 1880.0 n_overall=3475 opm=110 rt_tot_lastn_max_msec=953 rt_tot_avg_msec=376 rt_tot_sampled=454 rollbacks: n=163 %=  4.7 
+et= 1890.0 n_overall=3491 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=377 rt_tot_sampled=396 rollbacks: n=163 %=  4.7 
+et= 1900.0 n_overall=3509 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=377 rt_tot_sampled=430 rollbacks: n=165 %=  4.7 
+et= 1910.0 n_overall=3524 opm=110 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=377 rt_tot_sampled=457 rollbacks: n=165 %=  4.7 
+et= 1920.0 n_overall=3540 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=377 rt_tot_sampled=404 rollbacks: n=167 %=  4.7 
+et= 1930.0 n_overall=3558 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=377 rt_tot_sampled=394 rollbacks: n=168 %=  4.7 
+et= 1940.0 n_overall=3578 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=377 rt_tot_sampled=375 rollbacks: n=168 %=  4.7 
+et= 1950.0 n_overall=3594 opm=110 rt_tot_lastn_max_msec=875 rt_tot_avg_msec=378 rt_tot_sampled=404 rollbacks: n=169 %=  4.7 
+et= 1960.0 n_overall=3611 opm=110 rt_tot_lastn_max_msec=1031 rt_tot_avg_msec=378 rt_tot_sampled=545 rollbacks: n=169 %=  4.7 
+et= 1970.0 n_overall=3628 opm=110 rt_tot_lastn_max_msec=1031 rt_tot_avg_msec=378 rt_tot_sampled=385 rollbacks: n=169 %=  4.7 
+et= 1980.0 n_overall=3644 opm=110 rt_tot_lastn_max_msec=1031 rt_tot_avg_msec=378 rt_tot_sampled=406 rollbacks: n=170 %=  4.7 
+et= 1990.0 n_overall=3664 opm=110 rt_tot_lastn_max_msec=1031 rt_tot_avg_msec=379 rt_tot_sampled=451 rollbacks: n=170 %=  4.6 
+et= 2000.0 n_overall=3680 opm=110 rt_tot_lastn_max_msec=1031 rt_tot_avg_msec=379 rt_tot_sampled=367 rollbacks: n=170 %=  4.6 
+et= 2010.0 n_overall=3700 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=379 rt_tot_sampled=420 rollbacks: n=175 %=  4.7 
+et= 2020.0 n_overall=3719 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=379 rt_tot_sampled=437 rollbacks: n=175 %=  4.7 
+et= 2030.0 n_overall=3740 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=380 rt_tot_sampled=496 rollbacks: n=176 %=  4.7 
+et= 2040.0 n_overall=3761 opm=110 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=380 rt_tot_sampled=454 rollbacks: n=176 %=  4.7 
+et= 2050.0 n_overall=3777 opm=110 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=380 rt_tot_sampled=403 rollbacks: n=177 %=  4.7 
+et= 2060.0 n_overall=3797 opm=110 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=381 rt_tot_sampled=425 rollbacks: n=177 %=  4.7 
+et= 2070.0 n_overall=3815 opm=110 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=381 rt_tot_sampled=368 rollbacks: n=180 %=  4.7 
+et= 2080.0 n_overall=3832 opm=110 rt_tot_lastn_max_msec=1000 rt_tot_avg_msec=381 rt_tot_sampled=420 rollbacks: n=181 %=  4.7 
+et= 2090.0 n_overall=3849 opm=110 rt_tot_lastn_max_msec=1078 rt_tot_avg_msec=382 rt_tot_sampled=643 rollbacks: n=182 %=  4.7 
+et= 2100.0 n_overall=3870 opm=110 rt_tot_lastn_max_msec=1078 rt_tot_avg_msec=382 rt_tot_sampled=388 rollbacks: n=182 %=  4.7 
+et= 2110.0 n_overall=3890 opm=110 rt_tot_lastn_max_msec=1078 rt_tot_avg_msec=382 rt_tot_sampled=346 rollbacks: n=183 %=  4.7 
+et= 2120.0 n_overall=3905 opm=110 rt_tot_lastn_max_msec=1078 rt_tot_avg_msec=382 rt_tot_sampled=385 rollbacks: n=184 %=  4.7 
+et= 2130.0 n_overall=3924 opm=110 rt_tot_lastn_max_msec=1078 rt_tot_avg_msec=382 rt_tot_sampled=439 rollbacks: n=184 %=  4.7 
+et= 2140.0 n_overall=3942 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=383 rt_tot_sampled=478 rollbacks: n=184 %=  4.7 
+et= 2150.0 n_overall=3960 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=383 rt_tot_sampled=436 rollbacks: n=184 %=  4.6 
+et= 2160.0 n_overall=3972 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=383 rt_tot_sampled=417 rollbacks: n=184 %=  4.6 
+et= 2170.0 n_overall=3992 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=383 rt_tot_sampled=362 rollbacks: n=185 %=  4.6 
+et= 2180.0 n_overall=4010 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=383 rt_tot_sampled=356 rollbacks: n=186 %=  4.6 
+et= 2190.0 n_overall=4028 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=383 rt_tot_sampled=499 rollbacks: n=187 %=  4.6 
+et= 2200.0 n_overall=4047 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=383 rt_tot_sampled=421 rollbacks: n=187 %=  4.6 
+et= 2210.0 n_overall=4064 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=384 rt_tot_sampled=442 rollbacks: n=189 %=  4.7 
+et= 2220.0 n_overall=4084 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=384 rt_tot_sampled=450 rollbacks: n=192 %=  4.7 
+et= 2230.0 n_overall=4098 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=384 rt_tot_sampled=343 rollbacks: n=192 %=  4.7 
+User name newuser1978 already exists
+et= 2240.0 n_overall=4116 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=384 rt_tot_sampled=394 rollbacks: n=193 %=  4.7 
+et= 2250.0 n_overall=4132 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=384 rt_tot_sampled=483 rollbacks: n=194 %=  4.7 
+et= 2260.0 n_overall=4153 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=385 rt_tot_sampled=453 rollbacks: n=196 %=  4.7 
+User name newuser580 already exists
+et= 2270.0 n_overall=4173 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=385 rt_tot_sampled=502 rollbacks: n=199 %=  4.8 
+et= 2280.0 n_overall=4192 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=385 rt_tot_sampled=359 rollbacks: n=200 %=  4.8 
+et= 2290.0 n_overall=4213 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=385 rt_tot_sampled=409 rollbacks: n=200 %=  4.7 
+et= 2300.0 n_overall=4230 opm=110 rt_tot_lastn_max_msec=1046 rt_tot_avg_msec=386 rt_tot_sampled=485 rollbacks: n=202 %=  4.8 
+et= 2310.0 n_overall=4248 opm=110 rt_tot_lastn_max_msec=1046 rt_tot_avg_msec=385 rt_tot_sampled=377 rollbacks: n=204 %=  4.8 
+et= 2320.0 n_overall=4263 opm=110 rt_tot_lastn_max_msec=1046 rt_tot_avg_msec=386 rt_tot_sampled=406 rollbacks: n=204 %=  4.8 
+et= 2330.0 n_overall=4278 opm=110 rt_tot_lastn_max_msec=1046 rt_tot_avg_msec=386 rt_tot_sampled=389 rollbacks: n=206 %=  4.8 
+et= 2340.0 n_overall=4296 opm=110 rt_tot_lastn_max_msec=1046 rt_tot_avg_msec=386 rt_tot_sampled=480 rollbacks: n=208 %=  4.8 
+et= 2350.0 n_overall=4313 opm=110 rt_tot_lastn_max_msec=1046 rt_tot_avg_msec=386 rt_tot_sampled=386 rollbacks: n=211 %=  4.9 
+et= 2360.0 n_overall=4327 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=386 rt_tot_sampled=481 rollbacks: n=213 %=  4.9 
+et= 2370.0 n_overall=4348 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=386 rt_tot_sampled=389 rollbacks: n=214 %=  4.9 
+et= 2380.0 n_overall=4367 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=386 rt_tot_sampled=412 rollbacks: n=215 %=  4.9 
+et= 2390.0 n_overall=4387 opm=110 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=387 rt_tot_sampled=457 rollbacks: n=215 %=  4.9 
+et= 2400.0 n_overall=4406 opm=110 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=387 rt_tot_sampled=384 rollbacks: n=217 %=  4.9 
+et= 2410.0 n_overall=4424 opm=110 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=387 rt_tot_sampled=404 rollbacks: n=217 %=  4.9 
+et= 2420.0 n_overall=4439 opm=110 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=387 rt_tot_sampled=461 rollbacks: n=219 %=  4.9 
+et= 2430.0 n_overall=4454 opm=109 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=387 rt_tot_sampled=457 rollbacks: n=220 %=  4.9 
+et= 2440.0 n_overall=4473 opm=109 rt_tot_lastn_max_msec=906 rt_tot_avg_msec=387 rt_tot_sampled=399 rollbacks: n=221 %=  4.9 
+et= 2450.0 n_overall=4487 opm=109 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=387 rt_tot_sampled=358 rollbacks: n=221 %=  4.9 
+et= 2460.0 n_overall=4506 opm=109 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=387 rt_tot_sampled=365 rollbacks: n=223 %=  4.9 
+et= 2470.0 n_overall=4523 opm=109 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=387 rt_tot_sampled=346 rollbacks: n=224 %=  5.0 
+et= 2480.0 n_overall=4543 opm=109 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=387 rt_tot_sampled=318 rollbacks: n=227 %=  5.0 
+et= 2490.0 n_overall=4565 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=387 rt_tot_sampled=422 rollbacks: n=228 %=  5.0 
+User name newuser16531 already exists
+et= 2500.0 n_overall=4583 opm=109 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=387 rt_tot_sampled=340 rollbacks: n=229 %=  5.0 
+et= 2510.0 n_overall=4603 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=387 rt_tot_sampled=449 rollbacks: n=232 %=  5.0 
+et= 2520.0 n_overall=4620 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=387 rt_tot_sampled=429 rollbacks: n=232 %=  5.0 
+et= 2530.0 n_overall=4638 opm=109 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=387 rt_tot_sampled=381 rollbacks: n=232 %=  5.0 
+et= 2540.0 n_overall=4656 opm=109 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=387 rt_tot_sampled=368 rollbacks: n=233 %=  5.0 
+et= 2550.0 n_overall=4677 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=387 rt_tot_sampled=378 rollbacks: n=234 %=  5.0 
+et= 2560.0 n_overall=4693 opm=109 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=387 rt_tot_sampled=359 rollbacks: n=235 %=  5.0 
+et= 2570.0 n_overall=4710 opm=109 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=387 rt_tot_sampled=328 rollbacks: n=236 %=  5.0 
+User name newuser11220 already exists
+et= 2580.0 n_overall=4727 opm=109 rt_tot_lastn_max_msec=781 rt_tot_avg_msec=387 rt_tot_sampled=359 rollbacks: n=237 %=  5.0 
+et= 2590.0 n_overall=4742 opm=109 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=386 rt_tot_sampled=248 rollbacks: n=238 %=  5.0 
+et= 2600.0 n_overall=4767 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=386 rt_tot_sampled=448 rollbacks: n=238 %=  5.0 
+et= 2610.0 n_overall=4783 opm=109 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=386 rt_tot_sampled=376 rollbacks: n=238 %=  5.0 
+et= 2620.0 n_overall=4799 opm=109 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=386 rt_tot_sampled=373 rollbacks: n=239 %=  5.0 
+User name newuser8485 already exists
+et= 2630.0 n_overall=4819 opm=109 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=386 rt_tot_sampled=417 rollbacks: n=241 %=  5.0 
+et= 2640.0 n_overall=4834 opm=109 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=386 rt_tot_sampled=350 rollbacks: n=242 %=  5.0 
+et= 2650.0 n_overall=4853 opm=109 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=386 rt_tot_sampled=393 rollbacks: n=244 %=  5.0 
+et= 2660.0 n_overall=4873 opm=109 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=386 rt_tot_sampled=376 rollbacks: n=244 %=  5.0 
+et= 2670.0 n_overall=4893 opm=109 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=386 rt_tot_sampled=407 rollbacks: n=248 %=  5.1 
+et= 2680.0 n_overall=4911 opm=109 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=386 rt_tot_sampled=363 rollbacks: n=250 %=  5.1 
+et= 2690.0 n_overall=4935 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=387 rt_tot_sampled=447 rollbacks: n=250 %=  5.1 
+et= 2700.0 n_overall=4956 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=387 rt_tot_sampled=376 rollbacks: n=251 %=  5.1 
+et= 2710.0 n_overall=4975 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=386 rt_tot_sampled=315 rollbacks: n=252 %=  5.1 
+et= 2720.0 n_overall=4997 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=386 rt_tot_sampled=362 rollbacks: n=253 %=  5.1 
+et= 2730.0 n_overall=5017 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=386 rt_tot_sampled=341 rollbacks: n=255 %=  5.1 
+et= 2740.0 n_overall=5037 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=386 rt_tot_sampled=389 rollbacks: n=259 %=  5.1 
+et= 2750.0 n_overall=5059 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=387 rt_tot_sampled=519 rollbacks: n=260 %=  5.1 
+et= 2760.0 n_overall=5074 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=386 rt_tot_sampled=284 rollbacks: n=261 %=  5.1 
+User name newuser13177 already exists
+et= 2770.0 n_overall=5089 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=386 rt_tot_sampled=389 rollbacks: n=263 %=  5.2 
+et= 2780.0 n_overall=5105 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=386 rt_tot_sampled=327 rollbacks: n=266 %=  5.2 
+et= 2790.0 n_overall=5121 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=386 rt_tot_sampled=409 rollbacks: n=268 %=  5.2 
+et= 2800.0 n_overall=5140 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=386 rt_tot_sampled=364 rollbacks: n=269 %=  5.2 
+et= 2810.0 n_overall=5161 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=386 rt_tot_sampled=309 rollbacks: n=270 %=  5.2 
+et= 2820.0 n_overall=5178 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=386 rt_tot_sampled=353 rollbacks: n=272 %=  5.3 
+et= 2830.0 n_overall=5197 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=385 rt_tot_sampled=310 rollbacks: n=273 %=  5.3 
+et= 2840.0 n_overall=5218 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=385 rt_tot_sampled=372 rollbacks: n=273 %=  5.2 
+et= 2850.0 n_overall=5234 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=385 rt_tot_sampled=395 rollbacks: n=274 %=  5.2 
+et= 2860.0 n_overall=5251 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=385 rt_tot_sampled=360 rollbacks: n=274 %=  5.2 
+et= 2870.0 n_overall=5274 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=385 rt_tot_sampled=338 rollbacks: n=279 %=  5.3 
+et= 2880.0 n_overall=5290 opm=110 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=385 rt_tot_sampled=357 rollbacks: n=280 %=  5.3 
+et= 2890.0 n_overall=5309 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=385 rt_tot_sampled=288 rollbacks: n=280 %=  5.3 
+et= 2900.0 n_overall=5324 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=385 rt_tot_sampled=339 rollbacks: n=280 %=  5.3 
+et= 2910.0 n_overall=5343 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=384 rt_tot_sampled=358 rollbacks: n=283 %=  5.3 
+et= 2920.0 n_overall=5360 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=384 rt_tot_sampled=337 rollbacks: n=283 %=  5.3 
+et= 2930.0 n_overall=5375 opm=110 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=384 rt_tot_sampled=273 rollbacks: n=283 %=  5.3 
+et= 2940.0 n_overall=5395 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=384 rt_tot_sampled=308 rollbacks: n=284 %=  5.3 
+et= 2950.0 n_overall=5410 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=384 rt_tot_sampled=322 rollbacks: n=286 %=  5.3 
+User name newuser13824 already exists
+et= 2960.0 n_overall=5428 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=383 rt_tot_sampled=295 rollbacks: n=286 %=  5.3 
+et= 2970.0 n_overall=5443 opm=109 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=383 rt_tot_sampled=428 rollbacks: n=287 %=  5.3 
+et= 2980.0 n_overall=5464 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=384 rt_tot_sampled=459 rollbacks: n=288 %=  5.3 
+et= 2990.0 n_overall=5481 opm=109 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=383 rt_tot_sampled=311 rollbacks: n=290 %=  5.3 
+et= 3000.0 n_overall=5497 opm=109 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=383 rt_tot_sampled=379 rollbacks: n=291 %=  5.3 
+et= 3010.0 n_overall=5513 opm=109 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=383 rt_tot_sampled=302 rollbacks: n=292 %=  5.3 
+et= 3020.0 n_overall=5542 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=383 rt_tot_sampled=417 rollbacks: n=294 %=  5.3 
+et= 3030.0 n_overall=5557 opm=110 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=383 rt_tot_sampled=373 rollbacks: n=296 %=  5.3 
+et= 3040.0 n_overall=5574 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=383 rt_tot_sampled=418 rollbacks: n=298 %=  5.3 
+et= 3050.0 n_overall=5591 opm=109 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=383 rt_tot_sampled=364 rollbacks: n=298 %=  5.3 
+et= 3060.0 n_overall=5611 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=383 rt_tot_sampled=379 rollbacks: n=299 %=  5.3 
+et= 3070.0 n_overall=5628 opm=109 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=383 rt_tot_sampled=375 rollbacks: n=300 %=  5.3 
+et= 3080.0 n_overall=5652 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=383 rt_tot_sampled=345 rollbacks: n=301 %=  5.3 
+et= 3090.0 n_overall=5672 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=383 rt_tot_sampled=396 rollbacks: n=303 %=  5.3 
+et= 3100.0 n_overall=5692 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=383 rt_tot_sampled=315 rollbacks: n=305 %=  5.4 
+et= 3110.0 n_overall=5713 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=383 rt_tot_sampled=354 rollbacks: n=307 %=  5.4 
+et= 3120.0 n_overall=5730 opm=110 rt_tot_lastn_max_msec=765 rt_tot_avg_msec=383 rt_tot_sampled=383 rollbacks: n=307 %=  5.4 
+et= 3130.0 n_overall=5751 opm=110 rt_tot_lastn_max_msec=734 rt_tot_avg_msec=383 rt_tot_sampled=357 rollbacks: n=311 %=  5.4 
+et= 3140.0 n_overall=5768 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=383 rt_tot_sampled=322 rollbacks: n=314 %=  5.4 
+et= 3150.0 n_overall=5784 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=383 rt_tot_sampled=426 rollbacks: n=314 %=  5.4 
+et= 3160.0 n_overall=5804 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=383 rt_tot_sampled=388 rollbacks: n=315 %=  5.4 
+et= 3170.0 n_overall=5823 opm=110 rt_tot_lastn_max_msec=812 rt_tot_avg_msec=383 rt_tot_sampled=416 rollbacks: n=315 %=  5.4 
+et= 3180.0 n_overall=5843 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=383 rt_tot_sampled=371 rollbacks: n=317 %=  5.4 
+et= 3190.0 n_overall=5861 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=383 rt_tot_sampled=304 rollbacks: n=317 %=  5.4 
+et= 3200.0 n_overall=5880 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=383 rt_tot_sampled=375 rollbacks: n=319 %=  5.4 
+et= 3210.0 n_overall=5896 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=382 rt_tot_sampled=334 rollbacks: n=320 %=  5.4 
+et= 3220.0 n_overall=5918 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=382 rt_tot_sampled=293 rollbacks: n=322 %=  5.4 
+et= 3230.0 n_overall=5937 opm=110 rt_tot_lastn_max_msec=968 rt_tot_avg_msec=382 rt_tot_sampled=359 rollbacks: n=324 %=  5.5 
+et= 3240.0 n_overall=5954 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=382 rt_tot_sampled=363 rollbacks: n=326 %=  5.5 
+et= 3250.0 n_overall=5971 opm=110 rt_tot_lastn_max_msec=796 rt_tot_avg_msec=382 rt_tot_sampled=352 rollbacks: n=328 %=  5.5 
+et= 3260.0 n_overall=5986 opm=110 rt_tot_lastn_max_msec=687 rt_tot_avg_msec=382 rt_tot_sampled=292 rollbacks: n=329 %=  5.5 
+et= 3270.0 n_overall=6004 opm=110 rt_tot_lastn_max_msec=687 rt_tot_avg_msec=381 rt_tot_sampled=310 rollbacks: n=330 %=  5.5 
+et= 3280.0 n_overall=6023 opm=110 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=382 rt_tot_sampled=404 rollbacks: n=331 %=  5.5 
+et= 3290.0 n_overall=6040 opm=110 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=381 rt_tot_sampled=327 rollbacks: n=332 %=  5.5 
+et= 3300.0 n_overall=6057 opm=110 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=381 rt_tot_sampled=352 rollbacks: n=332 %=  5.5 
+et= 3310.0 n_overall=6075 opm=110 rt_tot_lastn_max_msec=859 rt_tot_avg_msec=381 rt_tot_sampled=322 rollbacks: n=334 %=  5.5 
+et= 3320.0 n_overall=6094 opm=110 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=381 rt_tot_sampled=380 rollbacks: n=337 %=  5.5 
+et= 3330.0 n_overall=6112 opm=110 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=381 rt_tot_sampled=348 rollbacks: n=338 %=  5.5 
+et= 3340.0 n_overall=6131 opm=110 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=381 rt_tot_sampled=291 rollbacks: n=340 %=  5.5 
+et= 3350.0 n_overall=6150 opm=110 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=381 rt_tot_sampled=357 rollbacks: n=340 %=  5.5 
+et= 3360.0 n_overall=6163 opm=110 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=381 rt_tot_sampled=444 rollbacks: n=341 %=  5.5 
+et= 3370.0 n_overall=6178 opm=109 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=381 rt_tot_sampled=366 rollbacks: n=343 %=  5.6 
+et= 3380.0 n_overall=6199 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=381 rt_tot_sampled=351 rollbacks: n=345 %=  5.6 
+et= 3390.0 n_overall=6214 opm=109 rt_tot_lastn_max_msec=703 rt_tot_avg_msec=381 rt_tot_sampled=417 rollbacks: n=345 %=  5.6 
+et= 3400.0 n_overall=6229 opm=109 rt_tot_lastn_max_msec=718 rt_tot_avg_msec=381 rt_tot_sampled=339 rollbacks: n=345 %=  5.5 
+et= 3410.0 n_overall=6251 opm=109 rt_tot_lastn_max_msec=843 rt_tot_avg_msec=381 rt_tot_sampled=416 rollbacks: n=345 %=  5.5 
+et= 3420.0 n_overall=6269 opm=109 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=381 rt_tot_sampled=396 rollbacks: n=345 %=  5.5 
+et= 3430.0 n_overall=6289 opm=110 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=381 rt_tot_sampled=292 rollbacks: n=347 %=  5.5 
+et= 3440.0 n_overall=6308 opm=110 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=380 rt_tot_sampled=268 rollbacks: n=349 %=  5.5 
+et= 3450.0 n_overall=6328 opm=110 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=380 rt_tot_sampled=327 rollbacks: n=352 %=  5.6 
+et= 3460.0 n_overall=6345 opm=110 rt_tot_lastn_max_msec=921 rt_tot_avg_msec=380 rt_tot_sampled=396 rollbacks: n=357 %=  5.6 
+et= 3470.0 n_overall=6366 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=380 rt_tot_sampled=381 rollbacks: n=357 %=  5.6 
+et= 3480.0 n_overall=6389 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=380 rt_tot_sampled=416 rollbacks: n=359 %=  5.6 
+et= 3490.0 n_overall=6412 opm=110 rt_tot_lastn_max_msec=828 rt_tot_avg_msec=380 rt_tot_sampled=340 rollbacks: n=361 %=  5.6 
+et= 3500.0 n_overall=6431 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=380 rt_tot_sampled=413 rollbacks: n=365 %=  5.7 
+et= 3510.0 n_overall=6448 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=380 rt_tot_sampled=427 rollbacks: n=367 %=  5.7 
+et= 3520.0 n_overall=6465 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=380 rt_tot_sampled=355 rollbacks: n=369 %=  5.7 
+et= 3530.0 n_overall=6485 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=380 rt_tot_sampled=406 rollbacks: n=370 %=  5.7 
+et= 3540.0 n_overall=6501 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=380 rt_tot_sampled=305 rollbacks: n=371 %=  5.7 
+et= 3550.0 n_overall=6519 opm=110 rt_tot_lastn_max_msec=937 rt_tot_avg_msec=380 rt_tot_sampled=289 rollbacks: n=373 %=  5.7 
+et= 3560.0 n_overall=6543 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=380 rt_tot_sampled=452 rollbacks: n=373 %=  5.7 
+et= 3570.0 n_overall=6561 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=380 rt_tot_sampled=302 rollbacks: n=375 %=  5.7 
+et= 3580.0 n_overall=6579 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=380 rt_tot_sampled=299 rollbacks: n=376 %=  5.7 
+et= 3590.0 n_overall=6601 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=380 rt_tot_sampled=403 rollbacks: n=380 %=  5.8 
+et= 3600.0 n_overall=6614 opm=110 rt_tot_lastn_max_msec=890 rt_tot_avg_msec=380 rt_tot_sampled=332 rollbacks: n=380 %=  5.7 
+
+Final (7/25/2017 11:41:33 AM): et= 3600.0 n_overall=6614 opm=110 rt_tot_lastn_max=890 rt_tot_avg=380 n_login_overall=5938 n_newcust_overall=676 n_browse_overall=65590 n_purchase_overall=6614 rt_login_avg_msec=19 rt_newcust_avg_msec=28 rt_browse_avg_msec=16 rt_purchase_avg_msec=195 rt_tot_sampled=332 n_rollbacks_overall=380 rollback_rate =   5.7%
+Thread 7: exiting
+Thread 6: exiting
+Thread 2: exiting
+Thread 1: exiting
+Thread 0: exiting
+Thread 5: exiting
+Thread 9: exiting
+Thread 3: exiting
+Thread 8: exiting
+Thread 4: exiting
+Controller (7/25/2017 11:41:41 AM): all threads stopped, exiting
+n_purchase_from_start= 7174 n_rollbacks_from_start= 394
+Run over

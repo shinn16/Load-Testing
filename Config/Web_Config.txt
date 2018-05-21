@@ -1,0 +1,8 @@
+## Auto generated config file
+IP=192.168.1.105
+USER_NAME=neo
+PASSWORD=@cite123
+FOLDER=./monitor
+ARGS="-t Web -s 2 -r 2"
+ANALYZE="-t Web -s 2 -c 0 --raw=True"
+MACHINE=Web
